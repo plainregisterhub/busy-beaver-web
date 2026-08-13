@@ -1983,20 +1983,24 @@ a {
   /* =======================================================
      CHARACTER IMAGE
 /* =========================================================
-   DAY ONE — DESKTOP GEOMETRY FIX
-   BLOCK 6
+   DAY ONE — DESKTOP GEOMETRY
+   BLOCK 6 — CLEAN RESET
 ========================================================= */
 
 @media (min-width: 1201px) {
 
   /* =======================================================
-     HERO
+     DESKTOP TEST MARKER
+     
+     If Block 6 is active:
+     hero should become noticeably taller.
   ======================================================= */
 
   .hero {
     min-height: 680px;
     margin-top: 42px;
   }
+
 
   /* =======================================================
      HERO PAPER
@@ -2010,6 +2014,7 @@ a {
       64px
       56px;
   }
+
 
   /* =======================================================
      CHARACTER STAGE
@@ -2025,45 +2030,56 @@ a {
     z-index: 30;
   }
 
+
   /* =======================================================
-     CHARACTER CONTAINERS
+     CHARACTER SCALE
+     
+     SCALE IS CONTROLLED BY HEIGHT.
+     WIDTH ONLY CONTROLS THE CHARACTER SLOT.
   ======================================================= */
 
   .character--miner {
-  width: 33%;
-  height: 100%;
+    width: 33%;
+    height: 100%;
 
-  transform:
-    translateX(8%);
-}
+    transform:
+      translateX(8%);
+  }
 
-.character--bruno {
-  width: 33%;
-  height: 96%;
 
-  transform:
-    translateX(0);
-}
+  .character--bruno {
+    width: 33%;
+    height: 94%;
 
-.character--stakey {
-  width: 50%;
-  height: 88%;
+    transform:
+      translateX(0);
+  }
 
-  transform:
-    translateX(-8%);
-}
+
+  .character--stakey {
+    width: 33%;
+    height: 88%;
+
+    transform:
+      translateX(-8%);
+  }
+
+
   /* =======================================================
-     CHARACTER IMAGE
+     CHARACTER IMAGES
+     
+     Preserve original aspect ratio.
   ======================================================= */
 
   .character--miner img,
   .character--bruno img,
   .character--stakey img {
-    height: 100%;
     width: auto;
+    height: 100%;
 
     max-width: none;
   }
+
 
   /* =======================================================
      INFO CARDS
@@ -2077,6 +2093,7 @@ a {
     min-height: 180px;
   }
 
+
   /* =======================================================
      STATS
   ======================================================= */
@@ -2086,4 +2103,4 @@ a {
     min-height: 180px;
   }
 
-     }
+   }
