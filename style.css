@@ -2328,28 +2328,142 @@ a {
   }
 
 
-  .character--stakey {
-    width: 33%;
-    height: 88%;
+/* =========================================================
+   DAY ONE — DESKTOP GEOMETRY
+   BLOCK 6 — MASTER RESET
+========================================================= */
 
-    transform:
-      translateX(-8%);
+@media (min-width: 1201px) {
+
+  /* =======================================================
+     DESKTOP TEST
+  ======================================================= */
+
+  .hero {
+    min-height: 680px;
+    margin-top: 42px;
   }
 
 
   /* =======================================================
-     CHARACTER IMAGES
-     
-     Preserve original aspect ratio.
+     HERO PAPER
   ======================================================= */
 
-  .character--miner img,
-  .character--bruno img,
-  .character--stakey img {
+  .hero-copy {
+    width: 48%;
+    min-height: 580px;
+
+    padding:
+      64px
+      56px;
+  }
+
+
+  /* =======================================================
+     CHARACTER STAGE
+  ======================================================= */
+
+  .character-stage {
+    position: absolute;
+
+    right: -1%;
+    bottom: 0;
+
+    width: 58%;
+    height: 54%;
+
+    display: flex;
+
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    z-index: 30;
+
+    pointer-events: none;
+    overflow: visible;
+  }
+
+
+  /* =======================================================
+     CHARACTER BASE
+  ======================================================= */
+
+  .character {
+    position: relative;
+
+    height: 100%;
+
+    display: flex;
+
+    align-items: flex-end;
+    justify-content: center;
+
+    flex:
+      0 0 auto;
+
+    overflow: visible;
+  }
+
+
+  /* =======================================================
+     CHARACTER IMAGE
+  ======================================================= */
+
+  .character img {
+    display: block;
+
     width: auto;
     height: 100%;
 
     max-width: none;
+    max-height: none;
+
+    object-fit: contain;
+  }
+
+
+  /* =======================================================
+     MINER
+  ======================================================= */
+
+  .character--miner {
+    width: 33%;
+    height: 100%;
+
+    z-index: 3;
+
+    transform:
+      translateX(8%);
+  }
+
+
+  /* =======================================================
+     BRUNO
+  ======================================================= */
+
+  .character--bruno {
+    width: 33%;
+    height: 94%;
+
+    z-index: 2;
+
+    transform:
+      translateX(0);
+  }
+
+
+  /* =======================================================
+     STAKEY
+  ======================================================= */
+
+  .character--stakey {
+    width: 33%;
+    height: 88%;
+
+    z-index: 1;
+
+    transform:
+      translateX(-8%);
   }
 
 
@@ -2372,7 +2486,8 @@ a {
 
   .stats-bar {
     margin-top: 32px;
+
     min-height: 180px;
   }
 
-   }
+     }
