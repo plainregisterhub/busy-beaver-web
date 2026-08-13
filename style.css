@@ -2129,3 +2129,184 @@ a {
   }
 
    }
+/* =========================================================
+   DAY ONE — DESKTOP GEOMETRY
+   BLOCK 6 — CHARACTER POSITION SYSTEM
+========================================================= */
+
+@media (min-width: 1201px) {
+
+  /* =======================================================
+     HERO FRAME
+  ======================================================= */
+
+  .hero {
+    min-height: 680px;
+    margin-top: 42px;
+  }
+
+
+  /* =======================================================
+     HERO PAPER
+  ======================================================= */
+
+  .hero-copy {
+    width: 48%;
+    min-height: 580px;
+
+    padding:
+      64px
+      56px;
+  }
+
+
+  /* =======================================================
+     CHARACTER STAGE
+     
+     IMPORTANT:
+     Stage is now treated as a coordinate area.
+     Characters are positioned independently.
+  ======================================================= */
+
+  .character-stage {
+    position: absolute;
+
+    right: -1%;
+    bottom: 0;
+
+    width: 62%;
+    height: 60%;
+
+    display: block;
+
+    z-index: 30;
+
+    overflow: visible;
+
+    pointer-events: none;
+  }
+
+
+  /* =======================================================
+     CHARACTER BASE
+     
+     Remove flex-slot behaviour.
+  ======================================================= */
+
+  .character {
+    position: absolute;
+
+    bottom: 0;
+
+    height: 100%;
+
+    display: block;
+
+    overflow: visible;
+
+    flex: none;
+
+    z-index: 1;
+  }
+
+
+  /* =======================================================
+     CHARACTER IMAGES
+     
+     Height controls physical character size.
+     Width remains automatic to preserve PNG ratio.
+  ======================================================= */
+
+  .character img {
+    display: block;
+
+    width: auto;
+    height: 100%;
+
+    max-width: none;
+    max-height: none;
+
+    object-fit: contain;
+  }
+
+
+  /* =======================================================
+     MINER
+     
+     Front / left character.
+  ======================================================= */
+
+  .character--miner {
+    left: 0;
+
+    width: auto;
+    height: 100%;
+
+    z-index: 3;
+
+    transform:
+      translateX(0);
+  }
+
+
+  /* =======================================================
+     BRUNO
+     
+     Middle character.
+  ======================================================= */
+
+  .character--bruno {
+    left: 27%;
+
+    width: auto;
+    height: 96%;
+
+    z-index: 2;
+
+    transform:
+      translateX(0);
+  }
+
+
+  /* =======================================================
+     STAKEy
+     
+     Right character.
+  ======================================================= */
+
+  .character--stakey {
+    left: 53%;
+
+    width: auto;
+    height: 88%;
+
+    z-index: 1;
+
+    transform:
+      translateX(0);
+  }
+
+
+  /* =======================================================
+     INFO CARDS
+  ======================================================= */
+
+  .info-cards {
+    margin-top: 0;
+  }
+
+  .card {
+    min-height: 180px;
+  }
+
+
+  /* =======================================================
+     STATS
+  ======================================================= */
+
+  .stats-bar {
+    margin-top: 32px;
+    min-height: 180px;
+  }
+
+       }
