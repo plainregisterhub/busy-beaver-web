@@ -1075,3 +1075,16 @@ PHONE
         margin-top: 20px;
     }
   }
+/* =========================================================
+FINAL — TWIN CHARACTER SIZE
+========================================================= */
+
+@media (max-width: 560px) {
+
+    .character--miner,
+    .character--bruno,
+    .character--stakey {
+        width: 36%;
+    }
+
+        }
