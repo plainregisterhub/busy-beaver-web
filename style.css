@@ -513,24 +513,29 @@ box-shadow:
 0 16px 18px rgba(20, 10, 5, .25);
 }
 
-.character--miner {
-width: 37%;
-z-index: 3;
+.character--miner,
+.character--bruno,
+.character--stakey {
+    width: 35%;
+    height: 100%;
+    z-index: 2;
 
-margin-right: -3%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.character--miner {
+    z-index: 3;
 }
 
 .character--bruno {
-width: 35%;
-z-index: 2;
+    z-index: 2;
 }
 
 .character--stakey {
-width: 35%;
-z-index: 1;
-
-margin-left: -2%;
-}
+    z-index: 1;
+  }
 
 /* =========================================================
 CARDS
