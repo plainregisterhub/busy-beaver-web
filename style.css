@@ -1308,3 +1308,272 @@ a {
     height: 30px;
   }
      }
+/* =========================================================
+   DAY ONE — RESPONSIVE OVERRIDE
+   BLOCK 5 — PHONE / SMALL SCREEN FIX
+========================================================= */
+
+@media (max-width: 900px) {
+
+  /* HEADER */
+
+  .site-header {
+    min-height: 64px;
+    gap: 12px;
+    padding: 8px 16px;
+  }
+
+  .brand__logo {
+    height: 28px;
+  }
+
+  .brand__name {
+    font-size: .78rem;
+  }
+
+  .nav__list {
+    gap: 14px;
+  }
+
+  .nav__link {
+    font-size: .72rem;
+  }
+
+  .social-links {
+    display: none;
+  }
+
+  .buy-token__button {
+    padding: 7px 9px 7px 12px;
+    font-size: .7rem;
+  }
+
+  /* MAIN */
+
+  .main {
+    padding:
+      0
+      16px
+      40px;
+  }
+
+  /* WORKSHOP */
+
+  .workshop-background {
+    top: 64px;
+    height: 760px;
+  }
+
+  /* HERO */
+
+  .hero {
+    min-height: 680px;
+    margin-top: 28px;
+  }
+
+  .hero-copy {
+    width: 62%;
+    min-height: 500px;
+
+    padding:
+      48px
+      32px;
+  }
+
+  .hero-copy__headline {
+    font-size: clamp(3rem, 8vw, 5rem);
+  }
+
+  .hero-copy__description {
+    font-size: .9rem;
+  }
+
+  /* CHARACTERS */
+
+  .character-stage {
+    right: -3%;
+    bottom: -1%;
+
+    width: 58%;
+    height: 55%;
+  }
+
+  /* INFO CARDS */
+
+  .info-cards {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+    gap: 12px;
+
+    margin-top: 18px;
+  }
+
+  .card {
+    min-height: 150px;
+
+    padding:
+      18px
+      16px;
+  }
+
+  .card__icon-container {
+    flex-basis: 46px;
+
+    width: 46px;
+    height: 46px;
+
+    margin-right: 10px;
+  }
+
+  .card__icon-container img {
+    width: 23px;
+    height: 23px;
+  }
+
+  .card__content h2 {
+    font-size: .72rem;
+  }
+
+  .card__content h3 {
+    font-size: .82rem;
+  }
+
+  .card__content p {
+    font-size: .68rem;
+  }
+
+}
+
+
+/* =========================================================
+   SMALL PHONE
+========================================================= */
+
+@media (max-width: 600px) {
+
+  .site-header {
+    min-height: 58px;
+  }
+
+  .brand__logo {
+    height: 25px;
+  }
+
+  .brand__name {
+    display: none;
+  }
+
+  .nav__list {
+    gap: 9px;
+  }
+
+  .nav__link {
+    font-size: .64rem;
+  }
+
+  .buy-token__button {
+    font-size: .62rem;
+    padding:
+      6px
+      7px
+      6px
+      9px;
+  }
+
+  .buy-token__icon {
+    width: 13px;
+    height: 13px;
+  }
+
+  /* HERO */
+
+  .hero {
+    min-height: 610px;
+    margin-top: 22px;
+  }
+
+  .hero-copy {
+    width: 100%;
+    min-height: 470px;
+
+    padding:
+      42px
+      28px;
+  }
+
+  .hero-copy__headline {
+    font-size: clamp(3.2rem, 14vw, 4.8rem);
+  }
+
+  .hero-copy__description {
+    font-size: .82rem;
+  }
+
+  .hero-copy__actions {
+    gap: 8px;
+  }
+
+  .button {
+    padding:
+      8px
+      9px
+      8px
+      13px;
+
+    font-size: .7rem;
+  }
+
+  /* CHARACTERS */
+
+  .character-stage {
+    right: -5%;
+    bottom: -1%;
+
+    width: 100%;
+    height: 43%;
+  }
+
+  .character--miner {
+    width: 36%;
+  }
+
+  .character--bruno {
+    width: 36%;
+  }
+
+  .character--stakey {
+    width: 36%;
+  }
+
+  /* CARDS */
+
+  .info-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    min-height: 140px;
+  }
+
+  /* STATS */
+
+  .stats-bar {
+    grid-template-columns: 1fr;
+
+    margin-top: 22px;
+  }
+
+  .stat {
+    min-height: 115px;
+
+    border-right: none !important;
+    border-bottom:
+      1px solid rgba(255,255,255,.14);
+  }
+
+  .stat:last-child {
+    border-bottom: none;
+  }
+
+}
