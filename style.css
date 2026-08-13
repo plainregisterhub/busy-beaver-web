@@ -1577,3 +1577,144 @@ a {
   }
 
 }
+/* =========================================================
+   DAY ONE — CLEAN CSS
+   BLOCK 6 — MOBILE HERO GEOMETRY
+========================================================= */
+
+@media (max-width: 600px) {
+
+  /* =======================================================
+     HERO FRAME
+  ======================================================= */
+
+  .hero {
+    min-height: 570px;
+
+    margin-top: 22px;
+
+    align-items: flex-start;
+  }
+
+
+  /* =======================================================
+     HERO PAPER
+  ======================================================= */
+
+  .hero-copy {
+    width: 100%;
+
+    min-height: 450px;
+
+    padding:
+      42px
+      28px;
+
+    justify-content: center;
+  }
+
+
+  /* =======================================================
+     HEADLINE
+  ======================================================= */
+
+  .hero-copy__headline {
+    font-size:
+      clamp(3rem, 13vw, 4.4rem);
+
+    line-height: .88;
+
+    margin-bottom: 22px;
+  }
+
+
+  /* =======================================================
+     DESCRIPTION
+  ======================================================= */
+
+  .hero-copy__description {
+    font-size: .82rem;
+
+    line-height: 1.4;
+
+    margin-bottom: 22px;
+  }
+
+
+  /* =======================================================
+     BUTTONS
+  ======================================================= */
+
+  .hero-copy__actions {
+    margin-bottom: 20px;
+  }
+
+
+  /* =======================================================
+     CHARACTER STAGE
+  ======================================================= */
+
+  .character-stage {
+    position: absolute;
+
+    right: -2%;
+    bottom: -1%;
+
+    width: 96%;
+    height: 27%;
+
+    display: flex;
+
+    align-items: flex-end;
+    justify-content: center;
+
+    overflow: visible;
+  }
+
+
+  /* =======================================================
+     CHARACTER SCALE
+  ======================================================= */
+
+  .character--miner {
+    width: 34%;
+    height: 100%;
+
+    transform:
+      translateX(8%);
+  }
+
+  .character--bruno {
+    width: 34%;
+    height: 96%;
+
+    transform:
+      translateX(0);
+  }
+
+  .character--stakey {
+    width: 34%;
+    height: 88%;
+
+    transform:
+      translateX(-8%);
+  }
+
+
+  /* =======================================================
+     CHARACTER IMAGE
+  ======================================================= */
+
+  .character--miner img,
+  .character--bruno img,
+  .character--stakey img {
+    width: auto;
+    height: 100%;
+
+    max-width: none;
+    max-height: none;
+
+    object-fit: contain;
+  }
+
+     }
