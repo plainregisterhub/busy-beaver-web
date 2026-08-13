@@ -2032,29 +2032,28 @@ a {
   ======================================================= */
 
   .character--miner {
-    width: 33%;
-    height: 100%;
+  width: 33%;
+  height: 100%;
 
-    transform:
-      translateX(8%);
-  }
+  transform:
+    translateX(8%);
+}
 
-  .character--bruno {
-    width: 33%;
-    height: 94%;
+.character--bruno {
+  width: 33%;
+  height: 96%;
 
-    transform:
-      translateX(0);
-  }
+  transform:
+    translateX(0);
+}
 
-  .character--stakey {
-    width: 33%;
-    height: 88%;
+.character--stakey {
+  width: 33%;
+  height: 100%;
 
-    transform:
-      translateX(-8%);
-  }
-
+  transform:
+    translateX(-8%);
+}
   /* =======================================================
      CHARACTER IMAGE
   ======================================================= */
