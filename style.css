@@ -1554,12 +1554,258 @@ a {
 
   .card {
     min-height: 140px;
+/* =========================================================
+   DAY ONE — RESPONSIVE OVERRIDE
+   BLOCK 5 — MOBILE / SMALL SCREEN
+========================================================= */
+
+@media (max-width: 900px) {
+
+  /* =======================================================
+     HEADER
+  ======================================================= */
+
+  .site-header {
+    min-height: 58px;
+
+    gap: 10px;
+
+    padding:
+      7px
+      12px;
   }
 
-  /* STATS */
+  .brand {
+    gap: 6px;
+  }
+
+  .brand__logo {
+    height: 25px;
+  }
+
+  .brand__name {
+    display: none;
+  }
+
+  .nav {
+    flex: 1;
+  }
+
+  .nav__list {
+    justify-content: center;
+
+    gap:
+      clamp(7px, 1.8vw, 14px);
+  }
+
+  .nav__link {
+    font-size: .64rem;
+  }
+
+  .social-links {
+    display: none;
+  }
+
+  .buy-token__button {
+    padding:
+      6px
+      7px
+      6px
+      9px;
+
+    font-size: .62rem;
+  }
+
+  .buy-token__icon {
+    width: 13px;
+    height: 13px;
+  }
+
+
+  /* =======================================================
+     MAIN
+  ======================================================= */
+
+  .main {
+    padding:
+      0
+      16px
+      40px;
+  }
+
+
+  /* =======================================================
+     WORKSHOP BACKGROUND
+  ======================================================= */
+
+  .workshop-background {
+    top: 58px;
+
+    height: 680px;
+  }
+
+
+  /* =======================================================
+     HERO
+  ======================================================= */
+
+  .hero {
+    min-height: 600px;
+
+    margin-top: 22px;
+  }
+
+
+  /* =======================================================
+     HERO PAPER
+  ======================================================= */
+
+  .hero-copy {
+    width: 100%;
+
+    min-height: 460px;
+
+    padding:
+      42px
+      28px;
+  }
+
+  .hero-copy__headline {
+    font-size:
+      clamp(3rem, 12vw, 4.6rem);
+
+    line-height: .86;
+  }
+
+  .hero-copy__description {
+    max-width: 260px;
+
+    font-size: .82rem;
+  }
+
+
+  /* =======================================================
+     HERO BUTTONS
+  ======================================================= */
+
+  .hero-copy__actions {
+    gap: 8px;
+  }
+
+  .button {
+    padding:
+      8px
+      9px
+      8px
+      13px;
+
+    font-size: .7rem;
+  }
+
+
+  /* =======================================================
+     CHARACTER STAGE
+     
+     IMPORTANT:
+     Reduce HEIGHT rather than simply width.
+     Character images use height: 100%.
+  ======================================================= */
+
+  .character-stage {
+    right: -2%;
+
+    bottom: -1%;
+
+    width: 92%;
+
+    height: 38%;
+  }
+
+  .character--miner {
+    width: 34%;
+    height: 100%;
+
+    transform:
+      translateX(5%);
+  }
+
+  .character--bruno {
+    width: 34%;
+    height: 94%;
+  }
+
+  .character--stakey {
+    width: 34%;
+    height: 86%;
+
+    transform:
+      translateX(-5%);
+  }
+
+
+  /* =======================================================
+     INFO CARDS
+     
+     FORCE ONE COLUMN.
+     This intentionally overrides BLOCK 3.
+  ======================================================= */
+
+  .info-cards {
+    grid-template-columns:
+      1fr;
+
+    gap: 14px;
+
+    margin-top: 18px;
+  }
+
+  .card {
+    min-height: 140px;
+
+    padding:
+      20px
+      18px;
+  }
+
+  .card__icon-container {
+    flex-basis: 48px;
+
+    width: 48px;
+    height: 48px;
+
+    margin-right: 12px;
+  }
+
+  .card__icon-container img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .card__content h2 {
+    font-size: .76rem;
+  }
+
+  .card__content h3 {
+    font-size: .88rem;
+  }
+
+  .card__content p {
+    font-size: .72rem;
+  }
+
+
+  /* =======================================================
+     STATS BAR
+     
+     FORCE ONE COLUMN.
+     This overrides BLOCK 4.
+  ======================================================= */
 
   .stats-bar {
-    grid-template-columns: 1fr;
+    grid-template-columns:
+      1fr;
+
+    min-height: auto;
 
     margin-top: 22px;
   }
@@ -1567,7 +1813,18 @@ a {
   .stat {
     min-height: 115px;
 
+    grid-template-columns:
+      52px
+      1fr;
+
+    padding:
+      20px
+      18px;
+
+    column-gap: 14px;
+
     border-right: none !important;
+
     border-bottom:
       1px solid rgba(255,255,255,.14);
   }
@@ -1576,7 +1833,38 @@ a {
     border-bottom: none;
   }
 
-}
+  .stat__icon-container {
+    width: 44px;
+    height: 44px;
+  }
+
+  .stat__icon-container img {
+    width: 23px;
+    height: 23px;
+  }
+
+  .stat__metric span {
+    font-size: 1.65rem;
+  }
+
+  .stat__metric h2,
+  .stat__content h2 {
+    font-size: .70rem;
+  }
+
+  .stat__content p {
+    font-size: .70rem;
+
+    line-height: 1.35;
+  }
+
+  .stat__metric .infinity,
+  .stat__metric .infinity img {
+    width: 30px;
+    height: 30px;
+  }
+
+   }
 /* =========================================================
    DAY ONE — CLEAN CSS
    BLOCK 6 — MOBILE HERO GEOMETRY
