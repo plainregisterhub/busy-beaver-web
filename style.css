@@ -1420,7 +1420,7 @@ a {
    SMALL PHONE
 ========================================================= */
 
-@media (max-width: 600px) {
+@media (max-width: 760px) {
 
   .site-header {
     min-height: 58px;
@@ -1513,7 +1513,7 @@ a {
   }
 
   .character--stakey {
-    width: 36%;
+    width: 38%;
   }
 
   /* CARDS */
@@ -1524,6 +1524,30 @@ a {
 
   .card {
     min-height: 140px;
+  }
+
+  /* STATS */
+
+  .stats-bar {
+    grid-template-columns: 1fr;
+
+    margin-top: 22px;
+  }
+
+  .stat {
+    min-height: 115px;
+
+    border-right: none !important;
+
+    border-bottom:
+      1px solid rgba(255,255,255,.14);
+  }
+
+  .stat:last-child {
+    border-bottom: none;
+  }
+
+     }
 /* =========================================================
    DAY ONE — RESPONSIVE OVERRIDE
    BLOCK 5 — MOBILE / SMALL SCREEN
