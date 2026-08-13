@@ -971,3 +971,102 @@ min-height: 150px;
 }
 
 }
+/* =========================================================
+FINAL RESPONSIVE CHARACTER FIX
+========================================================= */
+
+.character-stage {
+    overflow: visible;
+}
+
+.character {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Control actual character images */
+.character img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* =========================================================
+TABLET
+========================================================= */
+
+@media (max-width: 820px) {
+
+    .hero {
+        min-height: 760px;
+    }
+
+    .character-stage {
+        width: 70%;
+        height: 48%;
+        right: 0;
+        bottom: 0;
+    }
+
+    .character {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .character img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+}
+
+/* =========================================================
+PHONE
+========================================================= */
+
+@media (max-width: 560px) {
+
+    .hero {
+        min-height: 760px;
+    }
+
+    .hero-copy {
+        width: 100%;
+        min-height: 500px;
+
+        padding:
+            42px
+            24px
+            190px;
+    }
+
+    .character-stage {
+        width: 72%;
+        height: 40%;
+        right: 2%;
+        bottom: 0;
+
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    .character {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .character img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 100%;
+        object-fit: contain;
+    }
+
+    .info-cards {
+        margin-top: 20px;
+    }
+  }
