@@ -478,17 +478,17 @@ a {
 }
 
 /* =========================================================
-   CHARACTER STAGE
+   CHARACTER SYSTEM — CLEAN BASE
 ========================================================= */
 
 .character-stage {
   position: absolute;
 
-  right: -2%;
-  bottom: -2%;
+  right: 0;
+  bottom: 0;
 
-  width: 66%;
-  height: 68%;
+  width: 58%;
+  height: 72%;
 
   display: flex;
   align-items: flex-end;
@@ -497,13 +497,8 @@ a {
   z-index: 30;
 
   pointer-events: none;
-
   overflow: visible;
 }
-
-/* =========================================================
-   CHARACTER BASE
-========================================================= */
 
 .character {
   position: relative;
@@ -532,7 +527,7 @@ a {
 }
 
 /* =========================================================
-   CHARACTER INDIVIDUAL SCALE
+   CHARACTER SCALE
 ========================================================= */
 
 .character--miner {
@@ -540,9 +535,6 @@ a {
   height: 100%;
 
   z-index: 3;
-
-  transform:
-    translateX(8%);
 }
 
 .character--bruno {
@@ -550,9 +542,6 @@ a {
   height: 96%;
 
   z-index: 2;
-
-  transform:
-    translateX(0);
 }
 
 .character--stakey {
@@ -560,26 +549,7 @@ a {
   height: 88%;
 
   z-index: 1;
-
-  transform:
-    translateX(-8%);
-}
-
-/* =========================================================
-   CHARACTER IMAGE CONTROL
-========================================================= */
-
-.character--miner img,
-.character--bruno img,
-.character--stakey img {
-  width: auto;
-  height: 100%;
-
-  max-width: none;
-  max-height: none;
-
-  object-fit: contain;
-}
+   }
 /* =========================================================
    DAY ONE — CLEAN CSS
    BLOCK 3 — INFO CARDS
