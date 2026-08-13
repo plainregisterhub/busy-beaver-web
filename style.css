@@ -895,3 +895,416 @@ a {
     font-size: .74rem;
   }
    }
+/* =========================================================
+   DAY ONE — CLEAN CSS
+   BLOCK 4 — STATS BAR
+========================================================= */
+
+/* =========================================================
+   STATS BAR
+========================================================= */
+
+.stats-bar {
+  position: relative;
+  z-index: 40;
+
+  width: 100%;
+
+  min-height: 190px;
+
+  margin-top: 36px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr));
+
+  background: var(--blue);
+
+  border:
+    1px solid rgba(255, 255, 255, .08);
+
+  box-shadow:
+    0 12px 24px rgba(20, 10, 5, .22);
+
+  overflow: hidden;
+}
+
+/* =========================================================
+   STATS HARDWARE
+========================================================= */
+
+.stats-bar__hardware {
+  position: absolute;
+
+  display: block;
+
+  width: auto;
+  height: auto;
+
+  max-width: none;
+
+  pointer-events: none;
+
+  z-index: 10;
+}
+
+/* TOP LEFT */
+
+.stats-bar__hardware--tl {
+  top: 0;
+  left: 0;
+}
+
+/* TOP RIGHT */
+
+.stats-bar__hardware--tr {
+  top: 0;
+  right: 0;
+}
+
+/* BOTTOM LEFT */
+
+.stats-bar__hardware--bl {
+  bottom: 0;
+  left: 0;
+}
+
+/* BOTTOM RIGHT */
+
+.stats-bar__hardware--br {
+  bottom: 0;
+  right: 0;
+}
+
+/* =========================================================
+   STAT BASE
+========================================================= */
+
+.stat {
+  position: relative;
+
+  min-width: 0;
+
+  display: grid;
+
+  grid-template-columns:
+    58px
+    1fr;
+
+  column-gap: 16px;
+
+  align-items: center;
+
+  padding:
+    28px
+    26px;
+
+  color: var(--light);
+}
+
+/* =========================================================
+   STAT DIVIDERS
+========================================================= */
+
+.stat:not(:last-child) {
+  border-right:
+    1px solid rgba(255, 255, 255, .16);
+}
+
+/* =========================================================
+   STAT ICON
+========================================================= */
+
+.stat__icon-container {
+  width: 52px;
+  height: 52px;
+
+  display: grid;
+  place-items: center;
+
+  border:
+    1px solid rgba(255, 243, 196, .35);
+
+  background:
+    rgba(255, 255, 255, .04);
+}
+
+.stat__icon-container img {
+  width: 28px;
+  height: 28px;
+
+  object-fit: contain;
+}
+
+/* =========================================================
+   STAT CONTENT
+========================================================= */
+
+.stat__content {
+  min-width: 0;
+}
+
+.stat__content h2 {
+  margin-bottom: 6px;
+
+  font-size: .82rem;
+
+  font-weight: 900;
+
+  letter-spacing: .06em;
+
+  color: var(--light);
+}
+
+.stat__content p {
+  font-size: .78rem;
+
+  line-height: 1.4;
+
+  color: rgba(255, 243, 196, .88);
+}
+
+/* =========================================================
+   STAT METRIC
+========================================================= */
+
+.stat__metric {
+  min-width: 0;
+
+  display: flex;
+  align-items: baseline;
+
+  gap: 7px;
+
+  margin-bottom: 4px;
+}
+
+.stat__metric span {
+  font-size: 2rem;
+
+  line-height: 1;
+
+  font-weight: 900;
+
+  letter-spacing: -.04em;
+
+  color: var(--yellow);
+}
+
+.stat__metric h2 {
+  margin: 0;
+
+  font-size: .78rem;
+
+  font-weight: 900;
+
+  letter-spacing: .055em;
+
+  color: var(--light);
+}
+
+/* =========================================================
+   INFINITY
+========================================================= */
+
+.stat__metric .infinity {
+  width: 34px;
+  height: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat__metric .infinity img {
+  width: 34px;
+  height: 34px;
+
+  object-fit: contain;
+}
+
+/* =========================================================
+   MISSION
+========================================================= */
+
+.stat--mission {
+  grid-template-columns:
+    58px
+    1fr;
+}
+
+/* =========================================================
+   DAY
+========================================================= */
+
+.stat--day {
+  grid-template-columns:
+    58px
+    1fr;
+
+  grid-template-rows:
+    auto
+    auto;
+}
+
+.stat--day .stat__icon-container {
+  grid-row: 1 / span 2;
+}
+
+.stat--day .stat__metric {
+  align-self: end;
+}
+
+.stat--day .stat__content {
+  align-self: start;
+}
+
+/* =========================================================
+   BUILDERS
+========================================================= */
+
+.stat--builders {
+  grid-template-columns:
+    58px
+    1fr;
+}
+
+.stat--builders .stat__icon-container {
+  grid-row: 1 / span 2;
+}
+
+/* =========================================================
+   POSSIBILITIES
+========================================================= */
+
+.stat--possibilities {
+  grid-template-columns:
+    58px
+    1fr;
+}
+
+.stat--possibilities .stat__icon-container {
+  grid-row: 1 / span 2;
+}
+
+/* =========================================================
+   STATS RESPONSIVE — TABLET
+========================================================= */
+
+@media (max-width: 1100px) {
+
+  .stats-bar {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+    min-height: auto;
+  }
+
+  .stat {
+    min-height: 145px;
+
+    padding:
+      22px
+      20px;
+  }
+
+  .stat:nth-child(2) {
+    border-right: none;
+  }
+
+  .stat:nth-child(-n + 2) {
+    border-bottom:
+      1px solid rgba(255, 255, 255, .16);
+  }
+
+  .stat__icon-container {
+    width: 48px;
+    height: 48px;
+  }
+
+  .stat__icon-container img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .stat__metric span {
+    font-size: 1.8rem;
+  }
+
+  .stat__metric h2,
+  .stat__content h2 {
+    font-size: .74rem;
+  }
+
+  .stat__content p {
+    font-size: .72rem;
+  }
+}
+
+/* =========================================================
+   STATS RESPONSIVE — PHONE
+========================================================= */
+
+@media (max-width: 560px) {
+
+  .stats-bar {
+    grid-template-columns:
+      1fr;
+
+    margin-top: 24px;
+  }
+
+  .stat {
+    min-height: 125px;
+
+    grid-template-columns:
+      52px
+      1fr;
+
+    padding:
+      20px
+      18px;
+
+    column-gap: 14px;
+
+    border-right: none !important;
+    border-bottom:
+      1px solid rgba(255, 255, 255, .14);
+  }
+
+  .stat:last-child {
+    border-bottom: none;
+  }
+
+  .stat__icon-container {
+    width: 44px;
+    height: 44px;
+  }
+
+  .stat__icon-container img {
+    width: 23px;
+    height: 23px;
+  }
+
+  .stat__metric span {
+    font-size: 1.65rem;
+  }
+
+  .stat__metric h2,
+  .stat__content h2 {
+    font-size: .7rem;
+  }
+
+  .stat__content p {
+    font-size: .7rem;
+
+    line-height: 1.35;
+  }
+
+  .stat__metric .infinity,
+  .stat__metric .infinity img {
+    width: 30px;
+    height: 30px;
+  }
+     }
