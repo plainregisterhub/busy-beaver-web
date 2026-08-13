@@ -1088,3 +1088,26 @@ FINAL — TWIN CHARACTER SIZE
     }
 
         }
+/* =========================================================
+FINAL — SAME VISUAL HEIGHT FOR THE THREE TWINS
+========================================================= */
+
+@media (max-width: 560px) {
+
+    .character--miner,
+    .character--bruno,
+    .character--stakey {
+        width: 36%;
+        height: 100%;
+    }
+
+    .character--miner img,
+    .character--bruno img,
+    .character--stakey img {
+        height: 100%;
+        width: auto;
+        max-width: none;
+        object-fit: contain;
+    }
+
+        }
