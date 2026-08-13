@@ -1,0 +1,506 @@
+/* =========================================================
+   DAY ONE — CLEAN CSS (rebuilt, deduplicated)
+========================================================= */
+
+:root {
+  --cream: #fdf9f3;
+  --paper: #fff8ed;
+
+  --wood-1: #e8c994;
+  --wood-2: #dfbd82;
+  --wood-3: #ecd09f;
+
+  --brown: #3b2a1a;
+  --blue: #1e293b;
+
+  --yellow: #eab308;
+  --text: #18181b;
+  --light: #fff3c4;
+
+  --gutter: clamp(16px, 4vw, 64px);
+  --max-width: 1440px;
+}
+
+/* =========================================================
+   RESET
+========================================================= */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: var(--cream);
+  color: var(--text);
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+.site { position: relative; min-height: 100vh; }
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  min-height: 82px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  padding: 12px var(--gutter);
+  background: repeating-linear-gradient(90deg, var(--wood-1) 0, var(--wood-2) 80px, var(--wood-3) 160px);
+  border-bottom: 2px solid rgba(59, 42, 26, .2);
+  box-shadow: 0 4px 12px rgba(20, 10, 5, .16);
+}
+
+.brand { display: flex; align-items: center; gap: 10px; flex: 0 0 auto; }
+.brand__link { display: block; }
+.brand__logo { width: auto; height: 34px; object-fit: contain; }
+.brand__name { font-size: .9rem; font-weight: 900; letter-spacing: -.02em; }
+
+.nav { flex: 1; display: flex; justify-content: center; }
+.nav__list { display: flex; align-items: center; gap: clamp(18px, 2.5vw, 40px); list-style: none; }
+.nav__link { font-size: .9rem; font-weight: 800; transition: color .2s ease; }
+.nav__link:hover { color: #8a5a00; }
+
+.social-links { display: flex; align-items: center; gap: 8px; }
+.social-links__link {
+  width: 28px; height: 28px;
+  display: grid; place-items: center;
+  border-radius: 50%;
+  background: rgba(59, 42, 26, .12);
+}
+.social-links__link img { width: 15px; height: 15px; }
+
+.buy-token { flex: 0 0 auto; }
+.buy-token__button {
+  display: flex; align-items: center; gap: 10px;
+  padding: 9px 12px 9px 20px;
+  background: var(--yellow);
+  border: 1px solid rgba(0, 0, 0, .18);
+  box-shadow: 0 3px 7px rgba(20, 10, 5, .14);
+  font-size: .85rem; font-weight: 900; letter-spacing: .04em;
+}
+.buy-token__icon { width: 17px; height: 17px; }
+
+/* =========================================================
+   MAIN + WORKSHOP BACKGROUND
+========================================================= */
+
+.main {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--gutter) 60px;
+}
+
+.workshop-background {
+  position: absolute;
+  top: 82px;
+  left: 0;
+  width: 100%;
+  height: 560px;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.workshop-background img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero {
+  position: relative;
+  min-height: auto;
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.hero-copy {
+  position: relative;
+  z-index: 20;
+  width: 100%;
+  min-height: auto;
+  padding: 44px 28px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.hero-copy::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 248, 237, .95);
+  border-radius: 7% 6% 8% 7% / 6% 8% 7% 8%;
+  box-shadow: 0 18px 28px rgba(42, 20, 8, .15);
+  transform: rotate(-.4deg);
+  z-index: -1;
+}
+
+.hero-copy__accent { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.hero-copy__label {
+  font-family: "Comic Sans MS", cursive;
+  font-size: clamp(1rem, 1.5vw, 1.45rem);
+  color: #b87500;
+  transform: rotate(-2deg);
+}
+.hero-copy__hatches { width: 48px; height: auto; }
+
+.hero-copy__headline {
+  font-family: Montserrat, "Arial Black", Arial, sans-serif;
+  font-size: clamp(4rem, 7vw, 7rem);
+  line-height: .86;
+  letter-spacing: -.06em;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+.hero-copy__dot { color: var(--yellow); }
+
+.hero-copy__description {
+  font-size: clamp(1rem, 1.4vw, 1.25rem);
+  line-height: 1.45;
+  margin-bottom: 30px;
+}
+
+.hero-copy__actions {
+  display: flex; align-items: center; gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.button {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 12px 10px 20px;
+  border: 1px solid rgba(0, 0, 0, .14);
+  box-shadow: 0 4px 8px rgba(20, 10, 5, .14);
+  font-size: .85rem; font-weight: 900; letter-spacing: .04em;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.button:hover { transform: translateY(-2px); box-shadow: 0 7px 12px rgba(20, 10, 5, .18); }
+.button img { width: 17px; height: 17px; }
+.button--primary { background: var(--yellow); color: var(--text); }
+.button--secondary { background: var(--brown); color: var(--light); }
+
+.hero-copy__scroll {
+  display: flex; align-items: center; gap: 8px;
+  font-size: .72rem; font-weight: 900; letter-spacing: .06em;
+}
+.hero-copy__scroll img { width: 18px; height: 18px; }
+
+/* =========================================================
+   CHARACTER SYSTEM
+   Default (this block) = flex layout, used on screens
+   900px and narrower. A single min-width:901px block
+   below switches to absolute overlapping positioning for
+   every screen from tablet through desktop — no gap.
+========================================================= */
+
+.character-stage {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  margin-top: -6px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 2%;
+  pointer-events: none;
+  overflow: visible;
+}
+
+.character {
+  position: relative;
+  height: clamp(150px, 42vw, 260px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex: 0 0 auto;
+  overflow: visible;
+}
+
+.character img {
+  display: block;
+  width: auto;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  object-fit: contain;
+}
+
+/* =========================================================
+   INFO CARDS
+========================================================= */
+
+.info-cards {
+  position: relative;
+  z-index: 40;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  width: 100%;
+  margin-top: 18px;
+}
+
+.card {
+  position: relative;
+  min-width: 0;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  padding: 22px 18px;
+  overflow: hidden;
+  background: repeating-linear-gradient(0deg, var(--wood-1) 0, var(--wood-2) 8px, var(--wood-3) 16px);
+  border: 1px solid rgba(59, 42, 26, .2);
+  box-shadow: 0 8px 16px rgba(20, 10, 5, .20);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.card:hover { transform: translateY(-4px); box-shadow: 0 12px 20px rgba(20, 10, 5, .24); }
+
+.card__hardware {
+  position: absolute;
+  display: block;
+  width: 26px; height: auto;
+  max-width: none;
+  pointer-events: none;
+  z-index: 1;
+}
+.card__hardware--tl { top: 8px; left: 8px; }
+.card__hardware--tr { top: 8px; right: 8px; }
+.card__hardware--bl { bottom: 8px; left: 8px; }
+.card__hardware--br { bottom: 8px; right: 8px; }
+.card__hardware--note { top: 0; right: 0; width: 46px; height: auto; }
+
+.card__icon-container {
+  position: relative;
+  z-index: 10;
+  flex: 0 0 48px;
+  width: 48px; height: 48px;
+  display: grid; place-items: center;
+  margin-right: 12px;
+  border-radius: 50%;
+  background: rgba(255, 248, 237, .35);
+  border: 1px solid rgba(59, 42, 26, .16);
+}
+.card__icon-container img { width: 24px; height: 24px; object-fit: contain; }
+
+.card__content { position: relative; z-index: 2; min-width: 0; }
+.card__content h2 { font-size: .76rem; font-weight: 900; letter-spacing: .055em; margin-bottom: 5px; }
+.card__content h3 { font-size: .88rem; font-weight: 800; line-height: 1.15; margin-bottom: 7px; }
+.card__content p { font-size: .72rem; line-height: 1.35; }
+
+.card--build-log .card__content { padding-right: 22px; }
+.card--crew .card__content { padding-right: 8px; }
+
+/* =========================================================
+   STATS BAR
+========================================================= */
+
+.stats-bar {
+  position: relative;
+  z-index: 40;
+  width: 100%;
+  min-height: auto;
+  margin-top: 22px;
+  display: grid;
+  grid-template-columns: 1fr;
+  background: var(--blue);
+  border: 1px solid rgba(255, 255, 255, .08);
+  box-shadow: 0 12px 24px rgba(20, 10, 5, .22);
+  overflow: hidden;
+}
+
+.stats-bar__hardware {
+  position: absolute;
+  display: block;
+  width: 44px; height: auto;
+  max-width: none;
+  pointer-events: none;
+  z-index: 1;
+  opacity: .9;
+}
+.stats-bar__hardware--tl { top: 0; left: 0; }
+.stats-bar__hardware--tr { top: 0; right: 0; }
+.stats-bar__hardware--bl { bottom: 0; left: 0; }
+.stats-bar__hardware--br { bottom: 0; right: 0; }
+
+.stat {
+  position: relative;
+  z-index: 2;
+  min-width: 0;
+  min-height: 115px;
+  display: grid;
+  grid-template-columns: 52px 1fr;
+  column-gap: 14px;
+  align-items: center;
+  padding: 20px 18px;
+  color: var(--light);
+  border-right: none !important;
+  border-bottom: 1px solid rgba(255, 255, 255, .14);
+}
+.stat:last-child { border-bottom: none; }
+
+.stat__icon-container {
+  width: 44px; height: 44px;
+  display: grid; place-items: center;
+  border: 1px solid rgba(255, 243, 196, .35);
+  background: rgba(255, 255, 255, .04);
+}
+.stat__icon-container img { width: 23px; height: 23px; object-fit: contain; }
+
+.stat__content { min-width: 0; }
+.stat__content h2 { margin-bottom: 6px; font-size: .7rem; font-weight: 900; letter-spacing: .06em; color: var(--light); }
+.stat__content p { font-size: .7rem; line-height: 1.4; color: rgba(255, 243, 196, .88); }
+
+.stat__metric { min-width: 0; display: flex; align-items: baseline; gap: 7px; margin-bottom: 4px; }
+.stat__metric span { font-size: 1.65rem; line-height: 1; font-weight: 900; letter-spacing: -.04em; color: var(--yellow); }
+.stat__metric h2 { margin: 0; font-size: .7rem; font-weight: 900; letter-spacing: .055em; color: var(--light); }
+.stat__metric .infinity, .stat__metric .infinity img { width: 30px; height: 30px; }
+
+/* =========================================================
+   SMALL PHONE — extra shrink under 560px
+========================================================= */
+
+@media (max-width: 560px) {
+  .hero-copy__headline { font-size: clamp(3rem, 13vw, 4.2rem); }
+  .hero-copy { padding: 36px 22px 6px; }
+}
+
+/* =========================================================
+   TABLET + DESKTOP — everything from 901px up.
+   This ONE block replaces the old 901-1200 gap and the
+   old min-width:1201 block, so there is no dead zone.
+========================================================= */
+
+@media (min-width: 901px) {
+
+  .site-header { min-height: 82px; padding: 12px var(--gutter); gap: 28px; }
+  .brand__name { display: inline; }
+  .social-links { display: flex; }
+
+  .main { padding: 0 var(--gutter) 60px; }
+
+  .workshop-background { height: 900px; }
+
+  .hero {
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    min-height: 680px;
+    margin-top: 42px;
+  }
+
+  .hero-copy {
+    width: 48%;
+    min-height: 580px;
+    padding: 64px 56px;
+  }
+  .hero-copy__headline { font-size: clamp(4rem, 6vw, 6.5rem); }
+
+  /* Switch characters to absolute, overlapping layout */
+
+  .character-stage {
+    position: absolute;
+    right: -1%;
+    bottom: 0;
+    top: auto;
+    left: auto;
+    width: 62%;
+    height: 60%;
+    margin-top: 0;
+    display: block;
+    z-index: 30;
+    overflow: visible;
+    pointer-events: none;
+    gap: 0;
+  }
+
+  .character {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    display: block;
+    overflow: visible;
+    flex: none;
+  }
+
+  .character img {
+    width: auto;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    object-fit: contain;
+  }
+
+  .character--miner {
+    left: 0;
+    height: 100%;
+    z-index: 3;
+  }
+  .character--bruno {
+    left: 27%;
+    height: 96%;
+    z-index: 2;
+  }
+  .character--stakey {
+    left: 53%;
+    height: 88%;
+    z-index: 1;
+  }
+
+  /* Cards: 2 columns on tablet, 4 on wide desktop */
+
+  .info-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+    margin-top: 0;
+  }
+  .card { min-height: 180px; padding: 24px 22px; }
+  .card__icon-container { flex-basis: 54px; width: 54px; height: 54px; margin-right: 14px; }
+  .card__icon-container img { width: 28px; height: 28px; }
+  .card__content h2 { font-size: .8rem; }
+  .card__content h3 { font-size: .94rem; }
+  .card__content p { font-size: .76rem; }
+
+  /* Stats bar: 2 columns on tablet, 4 on wide desktop */
+
+  .stats-bar { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 32px; }
+  .stat:nth-child(2n) { border-right: none !important; }
+  .stat:not(:nth-last-child(-n+2)) { border-bottom: 1px solid rgba(255, 255, 255, .16); }
+  .stat { border-right: 1px solid rgba(255, 255, 255, .16) !important; min-height: 150px; }
+  .stat:nth-child(2n) { border-right: none !important; }
+  .stat__metric span { font-size: 1.9rem; }
+}
+
+@media (min-width: 1201px) {
+
+  .info-cards { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .stats-bar { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+  .stat {
+    border-right: 1px solid rgba(255, 255, 255, .16) !important;
+    border-bottom: none !important;
+  }
+  .stat:last-child { border-right: none !important; }
+}
