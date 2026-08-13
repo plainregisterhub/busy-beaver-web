@@ -1729,14 +1729,12 @@ a {
   }
 
   .character--stakey {
-    width: 34%;
-    height: 86%;
+  width: 50%;
+  height: 88%;
 
-    transform:
-      translateX(-5%);
+  transform:
+    translateX(-8%);
   }
-
-
   /* =======================================================
      INFO CARDS
      
