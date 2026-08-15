@@ -1,0 +1,286 @@
+:root {
+  color-scheme: light;
+  --page-max: 1440px;
+  --gutter: clamp(18px, 4vw, 64px);
+  --ink: #111;
+  --paper: #f7f4ed;
+  --accent: #f3c400;
+
+  --hero-min-h: 760px;
+  --hero-character-w: clamp(280px, 47vw, 700px);
+  --hero-character-bottom: clamp(42px, 6vw, 88px);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+.page {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* =========================
+   HERO
+   ========================= */
+
+.hero {
+  position: relative;
+  min-height: var(--hero-min-h);
+  isolation: isolate;
+  overflow: hidden;
+  background: var(--paper);
+}
+
+.hero__bg {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background-image: url("./assets/backgrounds/workshop_background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero__bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(247, 244, 237, 0.08);
+}
+
+.hero__content {
+  position: relative;
+  width: min(100%, var(--page-max));
+  min-height: var(--hero-min-h);
+  margin-inline: auto;
+  padding: clamp(22px, 3vw, 44px) var(--gutter);
+}
+
+/* DAY ONE mark */
+.hero__logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  z-index: 5;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  font-size: clamp(15px, 1.5vw, 22px);
+}
+
+.hero__logo img {
+  width: clamp(26px, 3vw, 42px);
+  height: auto;
+}
+
+/* Headline */
+.hero__headline {
+  position: relative;
+  z-index: 4;
+  width: min(620px, 60%);
+  margin-top: clamp(70px, 9vw, 125px);
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  font-size: clamp(11px, 1vw, 14px);
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: clamp(52px, 7.2vw, 108px);
+  line-height: 0.88;
+  letter-spacing: -0.075em;
+  font-weight: 950;
+}
+
+.subhead {
+  width: min(390px, 90%);
+  margin: 22px 0 0;
+  font-size: clamp(15px, 1.4vw, 20px);
+  line-height: 1.35;
+  font-weight: 650;
+}
+
+/* IMPORTANT:
+   Miner + Bruno + Stakey are ONE fixed composition.
+   CSS deliberately positions ONE image, not three characters. */
+.hero__characters {
+  position: absolute;
+  z-index: 3;
+  right: clamp(10px, 3vw, 55px);
+  bottom: var(--hero-character-bottom);
+  width: var(--hero-character-w);
+  pointer-events: none;
+}
+
+.hero__characters img {
+  width: 100%;
+  height: auto;
+}
+
+/* CTA */
+.hero__cta {
+  position: absolute;
+  z-index: 6;
+  left: var(--gutter);
+  bottom: clamp(34px, 4.5vw, 62px);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cta {
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  border: 2px solid var(--ink);
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.cta:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 var(--ink);
+}
+
+.cta--primary {
+  background: var(--accent);
+}
+
+.cta--secondary {
+  background: var(--paper);
+}
+
+/* =========================
+   MISSION
+   ========================= */
+
+.mission {
+  padding: clamp(90px, 12vw, 180px) var(--gutter);
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.mission__inner {
+  width: min(900px, 100%);
+  margin: 0 auto;
+}
+
+.mission h2 {
+  margin: 0;
+  font-size: clamp(58px, 9vw, 132px);
+  line-height: 0.84;
+  letter-spacing: -0.075em;
+}
+
+.mission__copy {
+  max-width: 520px;
+  margin: 32px 0 0;
+  font-size: clamp(16px, 1.5vw, 22px);
+  line-height: 1.45;
+}
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 760px) {
+  :root {
+    --hero-min-h: 760px;
+    --hero-character-w: min(112vw, 560px);
+    --hero-character-bottom: 92px;
+  }
+
+  .hero__content {
+    padding-inline: 20px;
+  }
+
+  .hero__headline {
+    width: 100%;
+    margin-top: 62px;
+  }
+
+  .hero h1 {
+    font-size: clamp(48px, 15vw, 78px);
+  }
+
+  .subhead {
+    max-width: 310px;
+  }
+
+  .hero__characters {
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  .hero__cta {
+    left: 20px;
+    right: 20px;
+    bottom: 24px;
+  }
+
+  .cta {
+    flex: 1 1 180px;
+  }
+}
+
+@media (max-width: 420px) {
+  :root {
+    --hero-min-h: 700px;
+    --hero-character-w: 118vw;
+    --hero-character-bottom: 82px;
+  }
+
+  .hero__headline {
+    margin-top: 54px;
+  }
+
+  .hero h1 {
+    font-size: 51px;
+  }
+
+  .hero__characters {
+    right: 52%;
+  }
+
+  .hero__cta {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .cta {
+    width: 100%;
+  }
+}
