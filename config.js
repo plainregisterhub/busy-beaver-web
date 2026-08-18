@@ -1,1 +1,0 @@
-window.DAYONE_CONFIG={brand:'$DayOne',token:{name:'$DayOne',status:'LAUNCHED ON PUMP.FUN',address:'',tokenUrl:'',contractUrl:''},socials:{x:'https://x.com/DayOne_BusyBeav',telegram:'https://t.me/DayOneSolana',instagram:'https://www.instagram.com/dayone_solana'}};
