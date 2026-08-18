@@ -1,0 +1,13 @@
+.container {
+  width: min(calc(100% - (var(--gutter) * 2)), var(--container));
+  margin-inline: auto;
+}
+.narrow { max-width: 900px; }
+.section { position: relative; padding-block: clamp(5rem, 10vw, 10rem); overflow: clip; }
+.section--light { background: var(--paper); color: var(--ink); }
+.section--dark { background: var(--black); color: var(--cream); }
+.section--technical { background: #dedbd1; color: var(--ink); }
+.section--compact { padding-block: 4rem; }
+.split-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(2rem, 7vw, 7rem); align-items: center; }
+.split-layout--reverse > :first-child { order: 2; }
+.community-grid { display: grid; grid-template-columns: 1.2fr .8fr; gap: 5rem; align-items: end; }
