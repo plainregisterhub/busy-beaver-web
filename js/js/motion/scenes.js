@@ -1,1 +1,0 @@
-export function initSceneMotion(){if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;document.querySelectorAll(".scene").forEach(s=>s.addEventListener("pointermove",e=>{const r=s.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;s.style.setProperty("--mx",`${x*10}px`);s.style.setProperty("--my",`${y*10}px`)}))}
