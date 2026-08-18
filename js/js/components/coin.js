@@ -1,0 +1,1 @@
+export function initCoin(){document.querySelectorAll("[data-coin]").forEach(c=>{const flip=()=>{const f=c.classList.toggle("is-flipped");c.setAttribute("aria-pressed",String(f))};c.addEventListener("click",flip);c.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();flip()}})})}

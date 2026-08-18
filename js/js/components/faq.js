@@ -1,0 +1,1 @@
+export function initFAQ(){document.querySelectorAll(".faq-item").forEach(i=>{const t=i.querySelector(".accordion__trigger"),c=i.querySelector(".accordion__content");if(!t||!c)return;t.addEventListener("click",()=>{const o=i.classList.toggle("is-open");t.setAttribute("aria-expanded",String(o));c.hidden=!o})})}
