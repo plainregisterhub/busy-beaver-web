@@ -1,0 +1,1 @@
+export const siteConfig={token:{name:"$DayOne",status:"LIVE",address:"CONTRACT_ADDRESS_NOT_SET"},socials:{x:"#",telegram:"#",instagram:"#"}};
