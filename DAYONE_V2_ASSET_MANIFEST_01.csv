@@ -1,0 +1,53 @@
+﻿asset,category,section,native_w,native_h,aspect_ratio,file_kb,mode,has_alpha,alpha_bbox,content_ratio,desktop_display,mobile_display,notes
+53245.jpg,REFERENCE,LEGACY ICON SET,1536,1536,1.0,102.3,RGB,False,,,reference only,reference only,reference image; not a primary production asset
+53251.jpg,REFERENCE,LEGACY ICON SET,1536,1536,1.0,80.1,RGB,False,,,reference only,reference only,reference image; not a primary production asset
+53255.jpg,REFERENCE,LEGACY ICON SET,1536,1536,1.0,96.1,RGB,False,,,reference only,reference only,reference image; not a primary production asset
+53282.jpg,REFERENCE,LEGACY ICON SET,1536,1536,1.0,168.5,RGB,False,,,reference only,reference only,reference image; not a primary production asset
+BG-05-COMMUNITY-HANGOUT.webp,BACKGROUND,COMMUNITY,1967,799,2.462,449.7,RGB,False,,,width:100%; min-height: section-driven; object-fit:cover,width:100%; min-height: section-driven; object-fit:cover,full-width background
+BG-06-TOKEN-DISPLAY.webp,BACKGROUND,TOKEN,1774,887,2.0,273.7,RGB,False,,,width:100%; min-height: section-driven; object-fit:cover,width:100%; min-height: section-driven; object-fit:cover,full-width background
+BG-07-BUILD-LOG.webp,BACKGROUND,BUILD LOG,1921,819,2.346,308.4,RGB,False,,,width:100%; min-height: section-driven; object-fit:cover,width:100%; min-height: section-driven; object-fit:cover,full-width background
+BG-08-CONTROL-BOARD.webp,BACKGROUND,CONTROL BOARD,1897,829,2.288,216.1,RGB,False,,,width:100%; min-height: section-driven; object-fit:cover,width:100%; min-height: section-driven; object-fit:cover,full-width background
+BG-09-MEET-THE-BUILDERS.webp,BACKGROUND,MEET THE BUILDERS,1907,825,2.312,379.8,RGB,False,,,width:100%; min-height: section-driven; object-fit:cover,width:100%; min-height: section-driven; object-fit:cover,full-width background
+CHAR-02-BRUNO.webp,CHARACTER,HERO / HOME BASE / MEET BUILDERS,1024,1536,0.667,1190.7,RGBA,True,"0,0,1010,1504",0.672,height: 560–620px; width:auto,height: 360–430px; width:auto,transparent character; standardize by visual height
+CHAR-03-STAKEY.webp,CHARACTER,HERO / HOME BASE / MEET BUILDERS,1024,1536,0.667,1282.9,RGBA,True,"0,22,965,1519",0.645,height: 560–620px; width:auto,height: 360–430px; width:auto,transparent character; standardize by visual height
+DAYONE-CHAR-01-MINER.webp,CHARACTER,HERO / HOME BASE / MEET BUILDERS,1024,1536,0.667,1128.6,RGBA,True,"0,14,1004,1518",0.668,height: 560–620px; width:auto,height: 360–430px; width:auto,transparent character; standardize by visual height
+DAYONE_TOKEN_BACK_DAYONE_EST2026.webp,TOKEN,TOKEN,1536,1536,1.0,2002.0,RGBA,True,"21,0,1518,1493",1.003,width: 340–420px,width: 220–290px,approved back coin; flip interaction
+DAYONE_TOKEN_FRONT_STILL_BUILDING.webp,TOKEN,TOKEN,1536,1536,1.0,2064.0,RGBA,True,"35,24,1488,1465",1.008,width: 340–420px,width: 220–290px,approved front coin; flip interaction
+PROP-01-TOKEN-PEDESTAL.webp,PROP,TOKEN,1942,809,2.4,1434.7,RGBA,True,"0,0,1892,785",2.41,width: 520–700px,width: 88–100vw; max-width: 520px,transparent pedestal; place behind/under coin
+a_wide_cinematic_industrial_interior_scene_a_diml.png,BACKGROUND / ALT,CONTROL / BUILD LOG,1950,807,2.416,1766.6,RGB,False,,,width:100%; min-height: section-driven; object-fit:cover,width:100%; min-height: section-driven; object-fit:cover,alternate industrial interior
+a_wide_cinematic_interior_scene_of_a_warm_cozy.png,BACKGROUND / ALT,HOME BASE / STILL BUILDING,1907,825,2.312,2054.9,RGB,False,,,width:100%; min-height: section-driven; object-fit:cover,width:100%; min-height: section-driven; object-fit:cover,alternate warm interior
+accent-hatch-divider.webp,UI DECOR,DIVIDERS,1536,768,2.0,110.3,RGB,False,,,contextual; 8–80px visible footprint,contextual; 6–48px visible footprint,decorative hatch
+accent-line.webp,UI DECOR,DIVIDERS,1536,508,3.024,19.9,RGB,False,,,contextual; 8–80px visible footprint,contextual; 6–48px visible footprint,decorative line
+arrow-right-button.webp,UI,CTA,1536,1536,1.0,449.7,RGB,False,,,contextual; generally 140–240px artwork,contextual; generally 120–200px,button artwork
+arrow-right-circle.webp,UI,CTA,1536,1536,1.0,378.6,RGB,False,,,contextual; generally 140–240px artwork,contextual; generally 120–200px,circular arrow
+beaver-logo.webp,BRAND,NAV / FOOTER / BRAND,1536,1536,1.0,118.6,RGB,False,,,24–52px (brand) / 72–120px (capsule),22–40px / 64–96px,black-background logo; best on dark surface
+beaver-wood-board-v1.webp,PROP / LEGACY,HOME BASE / META,1536,1152,1.333,49.0,RGB,False,,,reference only,reference only,wood surface texture/object
+beaver-worker-trio-lineup-v1.webp,COMPOSITE,HERO / MEET BUILDERS,1536,793,1.937,77.2,RGB,False,,,"width: min(900px, 72vw)",width: 92vw,precomposed trio; use only if composition is preferred
+beaver-workshop-background-v1.webp,BACKGROUND / LEGACY,HOME BASE,1536,1025,1.499,271.6,RGB,False,,,width:100%; min-height: section-driven; object-fit:cover,width:100%; min-height: section-driven; object-fit:cover,older workshop environment
+build-tools-icon.webp,ICON,BUILD LOG / CONTROL,1536,1536,1.0,55.2,RGB,False,,,44–88px,40–72px,icon
+builders-icon.webp,ICON,MEET BUILDERS,1536,1536,1.0,72.7,RGB,False,,,44–88px,40–72px,icon
+buy-token-button.webp,UI,CTA / TOKEN,1536,582,2.639,51.1,RGB,False,,,contextual; generally 140–240px artwork,contextual; generally 120–200px,button artwork
+checklist-icon.webp,ICON,BUILD LOG / CONTROL,1536,1536,1.0,471.1,RGBA,True,"73,51,1458,1510",0.949,44–88px,40–72px,icon
+community-icon.webp,ICON,COMMUNITY,1536,1536,1.0,549.4,RGBA,True,"84,47,1467,1508",0.947,44–88px,40–72px,icon
+construction-worker-badge.webp,ICON,HERO / BUILD LOG,1536,1536,1.0,648.9,RGBA,True,"66,49,1452,1511",0.948,44–88px,40–72px,badge
+day-01-sign.webp,PROP / LEGACY,HERO / META,1536,1536,1.0,390.2,RGBA,True,"41,118,1218,1139",1.153,reference only,reference only,sign object
+day_one_emblem.webp,BRAND / LEGACY,NAV / FOOTER,1536,1536,1.0,436.0,RGBA,True,"242,262,1303,1317",1.006,reference only,reference only,secondary emblem
+discord-icon.webp,SOCIAL ICON,SOCIAL,747,547,1.366,84.1,RGBA,True,"0,0,747,547",1.366,28–44px,26–40px,Discord
+explore-button.webp,UI,CTA,1536,429,3.58,186.8,RGBA,True,"37,43,1519,388",4.296,contextual; generally 140–240px artwork,contextual; generally 120–200px,button artwork
+globe-icon.webp,ICON,SOCIAL / CONTRACT,1536,1536,1.0,24.5,RGB,False,,,44–88px,40–72px,icon
+metal-bracket-c-left-v2.webp,UI DECOR,TECHNICAL / CONTROL / CONTRACT,865,1536,0.563,32.7,RGB,False,,,contextual; 8–80px visible footprint,contextual; 6–48px visible footprint,structural decoration
+metal-corner-bracket-02.webp,UI DECOR,TECHNICAL,555,525,1.057,21.2,RGB,False,,,contextual; 8–80px visible footprint,contextual; 6–48px visible footprint,small bracket
+metal-corner-bracket-single.webp,UI DECOR,TECHNICAL,1536,1536,1.0,284.4,RGBA,True,"204,247,1314,1344",1.012,contextual; 8–80px visible footprint,contextual; 6–48px visible footprint,bracket
+metal-corner-bracket-wide.webp,UI DECOR,TECHNICAL,679,640,1.061,25.7,RGB,False,,,contextual; 8–80px visible footprint,contextual; 6–48px visible footprint,wide bracket
+metal-corner-bracket.webp,UI DECOR,TECHNICAL,1536,1536,1.0,349.9,RGBA,True,"216,239,1414,1367",1.062,contextual; 8–80px visible footprint,contextual; 6–48px visible footprint,bracket
+metal-phillips-screw.webp,UI DECOR,TECHNICAL,1536,1536,1.0,148.7,RGBA,True,"422,417,1106,1142",0.943,contextual; 8–80px visible footprint,contextual; 6–48px visible footprint,screw
+metal-structural-corner-bracket-vertical.webp,UI DECOR,TECHNICAL,865,1536,0.563,37.4,RGB,False,,,contextual; 8–80px visible footprint,contextual; 6–48px visible footprint,vertical bracket
+mission-flag-icon.webp,ICON,BUILD LOG / META,1536,1536,1.0,35.1,RGB,False,,,44–88px,40–72px,icon
+mouse-icon.webp,ICON,HERO,1536,1536,1.0,36.5,RGB,False,,,44–88px,40–72px,scroll cue
+pill-icon.webp,ICON,TOKEN / META,1536,1536,1.0,216.1,RGB,False,,,44–88px,40–72px,icon
+possibilities-icon.webp,ICON,META / HOME BASE,1536,1536,1.0,58.3,RGB,False,,,44–88px,40–72px,icon
+possibilities-infinity.webp,ICON / DECOR,META,1536,1536,1.0,44.4,RGB,False,,,reference only,reference only,infinity
+target_ear_icon.webp,ICON,FAQ / SOCIAL,1536,1536,1.0,716.2,RGBA,True,"61,45,1447,1505",0.949,44–88px,40–72px,icon
+telegram-icon.webp,SOCIAL ICON,SOCIAL,670,571,1.173,54.4,RGBA,True,"0,0,670,571",1.173,28–44px,26–40px,Telegram
+token-capsule.webp,BRAND / EXTERNAL,TOKEN / CTA,1536,1536,1.0,61.2,RGB,False,,,24–52px (brand) / 72–120px (capsule),22–40px / 64–96px,Pump.fun-style capsule; black background
+x-icon.webp,SOCIAL ICON,SOCIAL,628,604,1.04,90.4,RGBA,True,"0,0,628,604",1.04,28–44px,26–40px,X
