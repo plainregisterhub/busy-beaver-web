@@ -1,0 +1,142 @@
+name: Full visual and technical asset audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "DIH_DayOne_Complete_Assets_Bundle.zip"
+      - ".github/workflows/full-asset-audit.yml"
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install image tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y webp imagemagick
+          python3 -m pip install --user pillow
+      - name: Extract, inspect, hash, and create contact sheets
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/dih-bundle docs/asset-audit
+          unzip -q DIH_DayOne_Complete_Assets_Bundle.zip -d /tmp/dih-bundle
+          python3 - <<'PY'
+          from pathlib import Path
+          from PIL import Image, ImageOps, ImageDraw, ImageFont
+          import hashlib, json, os, subprocess, textwrap
+          root=Path('/tmp/dih-bundle')
+          out=Path('docs/asset-audit')
+          out.mkdir(parents=True,exist_ok=True)
+          files=sorted(p for p in root.rglob('*') if p.is_file())
+          image_ext={'.webp','.png','.jpg','.jpeg','.gif','.bmp','.tif','.tiff','.avif'}
+          records=[]
+          for p in files:
+            rel=p.relative_to(root).as_posix()
+            raw=p.read_bytes()
+            rec={'path':rel,'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest(),'extension':p.suffix.lower() or '(none)','category':'non-image'}
+            if p.suffix.lower() in image_ext:
+              try:
+                with Image.open(p) as im:
+                  im.load()
+                  rec.update({'is_image':True,'format':im.format,'width':im.width,'height':im.height,'mode':im.mode,'frames':getattr(im,'n_frames',1),'has_alpha':('A' in im.getbands()) or ('transparency' in im.info),'aspect_ratio':round(im.width/im.height,4) if im.height else None})
+                  # classify visually by directory/name, not as a final semantic judgement
+                  name=(rel+' '+p.parent.name).lower()
+                  if any(k in name for k in ['mascot','beaver','pose','sticker','character']): rec['category']='mascot / character'
+                  elif any(k in name for k in ['roadmap','milestone','campaign','resurgence']): rec['category']='roadmap / campaign'
+                  elif any(k in name for k in ['background','night_sky','deep_space','moon_horizon','community_glow','panel','decorative']): rec['category']='background / environment'
+                  elif any(k in name for k in ['icon','button','ui_']): rec['category']='UI / icons'
+                  elif any(k in name for k in ['logo','brand','poster','reference','asset_board','master_asset_sheet','banner']): rec['category']='brand / reference'
+                  elif any(k in name for k in ['token','coin','contract','badge']): rec['category']='token / contract'
+                  else: rec['category']='other image'
+                  # Heuristic quality flags only; these are not subjective visual ratings.
+                  flags=[]
+                  if im.width < 256 or im.height < 256: flags.append('small raster; avoid large display')
+                  if im.width > 0 and im.height > 0 and max(im.width,im.height)/min(im.width,im.height)>4: flags.append('extreme aspect ratio; inspect crop')
+                  if im.mode in ('P','RGBA','LA') or 'transparency' in im.info: flags.append('transparency/palette; inspect rendered edges')
+                  if rec['frames']>1: flags.append('animated/multi-frame; inspect frame handling')
+                  rec['review_flags']=flags
+              except Exception as e:
+                rec.update({'is_image':True,'read_error':str(e),'category':'image decode error'})
+            else:
+              rec['is_image']=False
+            records.append(rec)
+          # Exact duplicates by SHA-256
+          hashes={}
+          for r in records: hashes.setdefault(r['sha256'],[]).append(r['path'])
+          duplicates=[{'sha256':h,'files':paths} for h,paths in hashes.items() if len(paths)>1]
+          # Build image contact sheets, one image per tile; preserve originals.
+          imgs=[r for r in records if r.get('is_image') and not r.get('read_error')]
+          thumb_w,thumb_h=260,210
+          tile_w,tile_h=300,265
+          per_page=12
+          font=ImageFont.load_default()
+          for start in range(0,len(imgs),per_page):
+            batch=imgs[start:start+per_page]
+            cols=3; rows=(len(batch)+cols-1)//cols
+            sheet=Image.new('RGB',(cols*tile_w,rows*tile_h),(15,15,18))
+            draw=ImageDraw.Draw(sheet)
+            for idx,r in enumerate(batch):
+              p=root/r['path']
+              x=(idx%cols)*tile_w; y=(idx//cols)*tile_h
+              with Image.open(p) as im:
+                im.seek(0)
+                frame=im.convert('RGBA')
+                frame.thumbnail((thumb_w,thumb_h),Image.Resampling.LANCZOS)
+                tile=Image.new('RGBA',(thumb_w,thumb_h),(24,24,28,255))
+                tile.alpha_composite(frame,((thumb_w-frame.width)//2,(thumb_h-frame.height)//2))
+                sheet.paste(tile.convert('RGB'),(x+(tile_w-thumb_w)//2,y+4))
+              label='\n'.join(textwrap.wrap(r['path'],width=43)[:3])
+              draw.text((x+8,y+218),label,fill=(245,220,100),font=font)
+              draw.text((x+8,y+252),f"{r.get('width','?')}x{r.get('height','?')} | {r['bytes']:,} B | {r.get('mode','?')}",fill=(220,220,220),font=font)
+            sheet.save(out/f'contact-sheet-{start//per_page+1:02d}.jpg',quality=88,optimize=True)
+          # Similar/near duplicates candidates based on same dimensions and visual perceptual hash (Pillow DCT unavailable -> average hash)
+          def ahash(path):
+            with Image.open(path) as im:
+              im.seek(0); im=im.convert('L').resize((8,8),Image.Resampling.LANCZOS)
+              px=list(im.getdata()); avg=sum(px)/len(px)
+              return sum((1<<i) for i,v in enumerate(px) if v>=avg)
+          hashes_vis=[]
+          for r in imgs:
+            try: hashes_vis.append((r['path'],r['sha256'],ahash(root/r['path']),r.get('width'),r.get('height')))
+            except: pass
+          near=[]
+          for i,a in enumerate(hashes_vis):
+            for b in hashes_vis[i+1:]:
+              if a[1]!=b[1] and (a[2]^b[2]).bit_count()<=5:
+                near.append({'file_a':a[0],'file_b':b[0],'average_hash_distance':(a[2]^b[2]).bit_count(),'note':'candidate only; compare contact sheet manually'})
+          report={'total_files':len(records),'total_bytes':sum(r['bytes'] for r in records),'image_count':len(imgs),'non_image_count':sum(not r.get('is_image') for r in records),'image_decode_errors':[r for r in records if r.get('read_error')],'exact_duplicates':duplicates,'near_duplicate_candidates':near,'assets':records}
+          (out/'asset-metadata.json').write_text(json.dumps(report,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+          lines=['# Full DIH / $DayOne Asset Audit','',f"- Files: **{len(records)}**",f"- Total bytes: **{report['total_bytes']:,}**",f"- Decodable images: **{len(imgs)}**",f"- Non-image files: **{report['non_image_count']}**",f"- Exact duplicate groups: **{len(duplicates)}**",f"- Near-duplicate candidates: **{len(near)}**",'','> Contact sheets provide a visual review surface. Automated image flags and average-hash similarity are heuristics, not a substitute for human judgement. No source assets were changed or deleted.','','## Image inventory','','| File | Dimensions | Format / mode | Alpha | Size | SHA-256 (prefix) | Flags |','|---|---:|---|---|---:|---|---|']
+          for r in records:
+            if not r.get('is_image'): continue
+            dims=f"{r.get('width','?')}×{r.get('height','?')}"
+            mode=f"{r.get('format','?')} / {r.get('mode','?')}"
+            lines.append(f"| `{r['path']}` | {dims} | {mode} | {r.get('has_alpha','—')} | {r['bytes']:,} B | `{r['sha256'][:12]}` | {', '.join(r.get('review_flags',[])) or '—'} |")
+          lines += ['', '## Exact duplicate groups','']
+          if duplicates:
+            for d in duplicates: lines += ['- SHA-256 `'+d['sha256'][:16]+'`: '+', '.join('`'+p+'`' for p in d['files'])]
+          else: lines += ['No byte-identical duplicate groups found.']
+          lines += ['', '## Near-duplicate candidates','']
+          if near:
+            for n in near: lines += [f"- `{n['file_a']}` ↔ `{n['file_b']}` (average-hash distance {n['average_hash_distance']}/64; manual confirmation needed)"]
+          else: lines += ['No likely near-duplicate pairs found by the basic average-hash heuristic.']
+          lines += ['', '## Visual contact sheets','']
+          for p in sorted(out.glob('contact-sheet-*.jpg')): lines += [f"- [{p.name}]({p.name})"]
+          lines += ['', '## Review limits','', '- Pixel dimensions, file size, decoding, alpha/transparency metadata and SHA-256 are machine-checked.', '- Contact sheets let a human inspect content, cropping, consistency and visual quality. They do not prove every image is aesthetically suitable.', '- Embedded wording, QR destinations, contract addresses and roadmap claims must be verified separately before publication.', '- Do not delete or overwrite source bundle files as part of this audit.']
+          Path('docs/asset-audit/README.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+          print(f"Audit complete: {len(records)} files, {len(imgs)} images, {len(duplicates)} exact duplicate groups, {len(near)} near-duplicate candidates.")
+          PY
+      - name: Commit audit report and contact sheets
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/asset-audit
+          if git diff --cached --quiet; then echo "Audit unchanged."; exit 0; fi
+          git commit -m "Add full visual and technical asset audit [skip asset extraction]"
+          git push
