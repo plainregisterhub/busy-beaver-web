@@ -1,0 +1,70 @@
+name: Audit DIH and DayOne asset bundle
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "DIH_DayOne_Complete_Assets_Bundle.zip"
+      - ".github/workflows/audit-assets.yml"
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract and classify asset inventory
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/dih-bundle docs
+          unzip -q DIH_DayOne_Complete_Assets_Bundle.zip -d /tmp/dih-bundle
+          python3 - <<'PY'
+          from pathlib import Path
+          from collections import defaultdict, Counter
+          root = Path('/tmp/dih-bundle')
+          files = sorted(p for p in root.rglob('*') if p.is_file())
+          categories = [
+            ('Mascot & character assets', ['mascot','beaver','character','pose']),
+            ('Roadmap & campaign visuals', ['roadmap','campaign','milestone','resurgence']),
+            ('Brand & logo assets', ['logo','brand','wordmark','icon']),
+            ('Backgrounds & environments', ['background','environment','city','scene','wallpaper']),
+            ('Token & coin artwork', ['token','coin','dayone']),
+            ('UI & website assets', ['ui','button','banner','web','interface']),
+          ]
+          def classify(p):
+            text = str(p.relative_to(root)).lower()
+            for label, words in categories:
+              if any(word in text for word in words):
+                return label
+            ext = p.suffix.lower()
+            if ext in {'.webp','.png','.jpg','.jpeg','.gif','.svg','.avif'}: return 'Other image assets (manual visual review)'
+            if ext in {'.ttf','.otf','.woff','.woff2'}: return 'Fonts'
+            if ext in {'.pdf','.md','.txt','.json','.csv'}: return 'Documents, manifests & metadata'
+            if ext in {'.mp4','.webm','.mov','.mp3','.wav','.ogg'}: return 'Audio & video'
+            return 'Other files (review)'
+          groups = defaultdict(list)
+          for p in files: groups[classify(p)].append(p)
+          lines = ['# DIH / $DayOne Asset Library Audit', '', 'Generated automatically from `DIH_DayOne_Complete_Assets_Bundle.zip`.', '', f'- Total files: **{len(files)}**', f'- Total size: **{sum(p.stat().st_size for p in files):,} bytes**', '', '## Classification summary', '', '| Category | Files |', '|---|---:|']
+          for label in [x[0] for x in categories] + ['Other image assets (manual visual review)','Fonts','Documents, manifests & metadata','Audio & video','Other files (review)']:
+            if groups.get(label): lines.append(f'| {label} | {len(groups[label])} |')
+          lines += ['', '## Full inventory by category', '', '> Classification is based on folder/file names and extensions. It is a first-pass audit, not a claim that every asset has been visually inspected. Duplicate, resolution, transparency, and visual-quality checks remain separate.', '']
+          for label, items in groups.items():
+            lines += [f'### {label}', '', '| File | Format | Size |', '|---|---|---:|']
+            for p in items:
+              rel = p.relative_to(root).as_posix().replace('|','\\|')
+              lines.append(f'| `{rel}` | {p.suffix.lower() or "no extension"} | {p.stat().st_size:,} B |')
+            lines.append('')
+          Path('docs/ASSET_LIBRARY_AUDIT.md').write_text('\n'.join(lines) + '\n', encoding='utf-8')
+          print(f'Wrote audit for {len(files)} files.')
+          PY
+      - name: Commit audit report
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/ASSET_LIBRARY_AUDIT.md
+          if git diff --cached --quiet; then echo "Audit report unchanged."; exit 0; fi
+          git commit -m "Add DIH and DayOne asset library audit [skip asset extraction]"
+          git push
