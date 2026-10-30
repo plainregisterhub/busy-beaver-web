@@ -1,0 +1,74 @@
+name: OCR and QR audit of campaign assets
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "DIH_DayOne_Complete_Assets_Bundle.zip"
+      - ".github/workflows/ocr-qr-audit.yml"
+permissions:
+  contents: write
+jobs:
+  inspect-copy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install OCR and QR tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr zbar-tools
+          python3 -m pip install --user pillow
+      - name: OCR text and decode QR codes
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/dih-bundle docs/asset-audit
+          unzip -q DIH_DayOne_Complete_Assets_Bundle.zip -d /tmp/dih-bundle
+          python3 - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          import subprocess,json,hashlib
+          root=Path('/tmp/dih-bundle')
+          out=Path('docs/asset-audit')
+          exts={'.webp','.png','.jpg','.jpeg','.bmp','.tif','.tiff'}
+          rows=[]
+          for p in sorted(root.rglob('*')):
+            if not p.is_file() or p.suffix.lower() not in exts: continue
+            rel=p.relative_to(root).as_posix()
+            row={'path':rel,'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'ocr_text':'','qr_codes':[],'status':'checked'}
+            try:
+              with Image.open(p) as im:
+                im.seek(0)
+                # Convert to PNG for stable OCR/QR tool input.
+                tmp=Path('/tmp/asset-audit.png')
+                im.convert('RGB').save(tmp)
+              ocr=subprocess.run(['tesseract','/tmp/asset-audit.png','stdout','--psm','11'],capture_output=True,text=True,timeout=30)
+              row['ocr_text']=ocr.stdout.strip()
+              qr=subprocess.run(['zbarimg','--quiet','--raw','/tmp/asset-audit.png'],capture_output=True,text=True,timeout=15)
+              row['qr_codes']=[x.strip() for x in qr.stdout.splitlines() if x.strip()]
+            except Exception as e:
+              row['status']='error'
+              row['error']=str(e)
+            rows.append(row)
+          (out/'ocr-qr-results.json').write_text(json.dumps(rows,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+          lines=['# Embedded Text and QR Code Audit','',f'- Image files scanned: **{len(rows)}**',f'- Files with detected text: **{sum(bool(r.get("ocr_text")) for r in rows)}**',f'- Files with decoded QR payloads: **{sum(bool(r.get("qr_codes")) for r in rows)}**',f'- Files with inspection errors: **{sum(r.get("status")=="error" for r in rows)}**','','> OCR can misread stylized pixel fonts and small text. QR decoding only identifies payloads; each destination must still be checked for correctness and safety. Roadmap and token claims are not approved merely because OCR detects them.','']
+          for r in rows:
+            lines += [f"## {r['path']}",'',f"- SHA-256: `{r['sha256']}`",f"- Status: {r['status']}"]
+            if r.get('error'): lines += [f"- Error: {r['error']}"]
+            lines += ['', '### OCR text', '', r.get('ocr_text') or '(No text detected by OCR.)','', '### QR payloads','']
+            lines += [f"- `{q}`" for q in r.get('qr_codes',[])] or ['- No QR payload decoded.']
+            lines.append('')
+          lines += ['## Manual approval still required','','- Verify the official social handles and token contract against the owner-approved canonical values before publishing.', '- Open every decoded QR destination and confirm it points to the intended official resource; no automated OCR/QR run can approve a destination by itself.', '- Compare every milestone value and claim with the currently approved roadmap. Mark future milestones as targets, not promises or guarantees.', '- OCR output is evidence for review, not a substitute for visual proofreading.']
+          (out/'OCR_QR_AUDIT.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+          print(f"Scanned {len(rows)} images.")
+          PY
+      - name: Commit OCR and QR report
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/asset-audit/OCR_QR_AUDIT.md docs/asset-audit/ocr-qr-results.json
+          if git diff --cached --quiet; then echo "No report changes."; exit 0; fi
+          git commit -m "Add OCR and QR asset content audit [skip asset extraction]"
+          git push
