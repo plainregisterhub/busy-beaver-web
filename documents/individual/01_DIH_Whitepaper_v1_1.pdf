@@ -1,0 +1,942 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R] /Count 14 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4337 >>
+stream
+0.70 0.48 0.16 RG 1 w 50 805 m 545 805 l S
+BT /F2 7 Tf 0.09 0.10 0.15 rg 1 0 0 1 50 814 Tm (DEVS IN HOODIES  |  DOCUMENT LIBRARY) Tj ET
+BT /F2 16 Tf 0.09 0.10 0.15 rg 1 0 0 1 50 780.0 Tm (DIH WHITEPAPER) Tj ET
+BT /F2 7.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 764.0 Tm (DEVS IN HOODIES  |  SEARCHABLE WEB PDF) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 748.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 743.0 Tm ($DayOne / Devs In Hoodies Whitepaper) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 731.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 726.5 Tm (DAYONE / DEVS IN HOODIES WHITEPAPER - V1.0) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 715.0 Tm (PROJECT WHITEPAPER) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 703.5 Tm ($DayOne) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 692.0 Tm (DEVS IN HOODIES) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 680.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 675.5 Tm (THE RESURGENCE) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 664.0 Tm (Founder-Led. Community-Built.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 652.5 Tm (OUR SHARED IDENTITY) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 641.0 Tm (WE ARE ALL DEVS IN HOODIES.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 629.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 624.5 Tm (WHITEPAPER | VERSION 1.1) Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 613.0 Tm (30 OCTOBER 2026) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 600.0 Tm (A project information document describing the identity, community framework, creator-fee) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 588.5 Tm (allocation principles, roadmap and future plans of $DayOne / Devs In Hoodies.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 577.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 572.0 Tm (READ THIS FIRST) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 560.5 Tm (Document map) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 549.0 Tm (A practical guide to what the project is, what it intends to do, and what remains subject to) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 537.5 Tm (implementation.) Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 526.0 Tm (SECTION) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 513.0 Tm (TOPIC) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 501.5 Tm (PAGE) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 490.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 485.0 Tm (01) Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 473.5 Tm (Executive summary & background) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 460.5 Tm (3) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 449.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 444.0 Tm (02) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 432.5 Tm (Identity, vision & operating principles) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 421.0 Tm (4) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 409.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 404.5 Tm (03) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 393.0 Tm (Token identity & project scope) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 381.5 Tm (5) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 370.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 365.0 Tm (04) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 353.5 Tm (Creator fee allocation framework) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 342.0 Tm (6) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 330.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 325.5 Tm (05) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 314.0 Tm (The Resurgence content competition) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 302.5 Tm (7) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 291.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 286.0 Tm (06) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 274.5 Tm (Permanent creator-fee sharing) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 263.0 Tm (8) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 251.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 246.5 Tm (07) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 235.0 Tm (DIH intellectual property) Tj ET
+BT /F1 7 Tf 0.38 0.43 0.51 rg 1 0 0 1 50 24 Tm (WEB PDF  |  PAGE 1 OF 14) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 5554 >>
+stream
+0.70 0.48 0.16 RG 1 w 50 805 m 545 805 l S
+BT /F2 7 Tf 0.09 0.10 0.15 rg 1 0 0 1 50 814 Tm (DEVS IN HOODIES  |  DOCUMENT LIBRARY) Tj ET
+BT /F2 10 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 780.0 Tm (DIH WHITEPAPER  |  CONTINUED) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 765.0 Tm (9) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 753.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 748.5 Tm (08) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 737.0 Tm (DayOne Arena) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 725.5 Tm (10) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 714.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 709.0 Tm (09) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 697.5 Tm (Roadmap & market-cap milestones) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 686.0 Tm (11) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 674.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 669.5 Tm (10) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 658.0 Tm (Future game-profit buyback & burn) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 646.5 Tm (12) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 635.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 630.0 Tm (11) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 618.5 Tm (Transparency, records & founder disclosure) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 607.0 Tm (13) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 595.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 590.5 Tm (12) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 579.0 Tm (Risks, limitations & important notices) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 567.5 Tm (14) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 556.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 551.0 Tm (13) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 539.5 Tm (Implementation register & closing statement) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 528.0 Tm (15) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 516.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 511.5 Tm (HOW TO READ THIS PAPER) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 500.0 Tm (This document distinguishes current project identity and decisions from future plans,) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 488.5 Tm (conditional milestones and mechanisms that still need to be built or specified. A stated) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 477.0 Tm (intention is not proof that a system is already operational.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 465.5 Tm () Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 460.5 Tm (Document status: Version 1.1, revised on 30 October 2026 to clarify pseudonymous founder) Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 447.5 Tm (boundaries, wallet transparency and privacy. This is a project information document, not an) Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 434.5 Tm (independent audit, legal opinion or investment recommendation.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 421.5 Tm () Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 416.5 Tm (01 / THE RESURGENCE WHITEPAPER) Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 403.5 Tm (Executive summary & background) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 390.5 Tm (A memecoin project choosing to build participation, contribution and shared identity around an) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 379.0 Tm (existing token.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 367.5 Tm ($DayOne is an existing memecoin project on Solana. Devs In Hoodies \(DIH\) is its refreshed) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 356.0 Tm (project identity, and The Resurgence is the initiative intended to bring the project back to) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 344.5 Tm (life through creative participation and community activity.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 333.0 Tm (The project does not present $DayOne as a finished software product or as a token with utility) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 321.5 Tm (that already exists. The current proposition is simpler: an existing memecoin, a founder-led) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 310.0 Tm (project direction, an open invitation for community participation, and a roadmap that includes) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 298.5 Tm (a creator campaign and a proposed game concept.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 287.0 Tm (The central principle is Founder-Led. Community-Built. The founder retains responsibility for) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 275.5 Tm (project direction and execution, while the community is invited to contribute ideas, content,) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 264.0 Tm (creative work and participation. The project intends to make room for community ownership of) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 252.5 Tm (the culture around DIH without describing that participation as a transfer of legal ownership) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 241.0 Tm (or control of the project.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 229.5 Tm (A defined creator-fee allocation framework assigns 100% of the eligible creator-fee base) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 218.0 Tm (across five categories. A 25% competition allocation is intended to be divided equally among) Tj ET
+BT /F1 7 Tf 0.38 0.43 0.51 rg 1 0 0 1 50 24 Tm (WEB PDF  |  PAGE 2 OF 14) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 6365 >>
+stream
+0.70 0.48 0.16 RG 1 w 50 805 m 545 805 l S
+BT /F2 7 Tf 0.09 0.10 0.15 rg 1 0 0 1 50 814 Tm (DEVS IN HOODIES  |  DOCUMENT LIBRARY) Tj ET
+BT /F2 10 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 780.0 Tm (DIH WHITEPAPER  |  CONTINUED) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 765.0 Tm (25 selected winners, producing a 1% share of the eligible creator-fee base per winner. The) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 753.5 Tm (intended ongoing sharing is conditional on membership of the project Telegram group and on the) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 742.0 Tm (relevant creator-fee mechanism continuing to operate.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 730.5 Tm (The roadmap links future activities to market-cap targets: a five-day creator campaign at) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 719.0 Tm ($100,000; a DayOne Arena development target at $250,000; preparation for a next stage at) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 707.5 Tm ($500,000; community expansion at $1 million; and a longer-term $5 million milestone called) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 696.0 Tm (Reach the Moon. These are targets, not promises that market capitalisation will reach any) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 684.5 Tm (level.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 673.0 Tm (DayOne Arena remains a concept. The project also states an intention to allocate 60% of future) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 661.5 Tm (game net profits to buyback and burn $DayOne. This is separate from Pump.fun creator fees and) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 650.0 Tm (cannot generate a buyback allocation until a game exists and produces net profit.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 638.5 Tm (THE CORE PROPOSITION) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 627.0 Tm (An existing memecoin. A clearer identity. Community participation. Publicly stated) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 615.5 Tm (allocations. Future plans that are labelled as future plans.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 604.0 Tm () Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 599.0 Tm (02 / THE RESURGENCE WHITEPAPER) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 586.0 Tm (Identity, vision & operating principles) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 574.5 Tm (The project identity is a commitment to how the community intends to build, not a claim that) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 563.0 Tm (every planned feature already exists.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 551.5 Tm ($DayOne and Devs In Hoodies are connected parts of the same project. $DayOne remains the token) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 540.0 Tm (identity. Devs In Hoodies is the project and community identity used to express the renewed) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 528.5 Tm (direction. The Resurgence is the campaign and participation framework supporting that) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 517.0 Tm (direction.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 505.5 Tm (ELEMENT) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 494.0 Tm (MEANING) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 482.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 477.5 Tm (Token) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 466.0 Tm ($DayOne - the existing memecoin.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 454.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 449.5 Tm (Project identity) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 438.0 Tm (Devs In Hoodies \(DIH\) - the refreshed identity and creative culture around the project.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 426.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 421.5 Tm (Initiative) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 410.0 Tm (The Resurgence - the effort to restart activity through participation and community building.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 398.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 393.5 Tm (Principle) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 382.0 Tm (Founder-Led. Community-Built.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 370.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 365.5 Tm (Slogan) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 354.0 Tm (We Are All Devs In Hoodies.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 342.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 337.5 Tm (Founder-led means the founder remains responsible for setting direction, maintaining project) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 326.0 Tm (standards and coordinating execution. Community-built means the project welcomes public) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 314.5 Tm (participation and ideas, and intends to create meaningful ways for contributors to take part.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 303.0 Tm (It does not mean that every participant becomes a project owner, director, employee or legal) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 291.5 Tm (representative.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 280.0 Tm (The community is not expected to prove its value through constant posting or compulsory) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 268.5 Tm (labour. The Resurgence competition is a defined activity; ongoing participation outside its) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 257.0 Tm (rules is voluntary. The open-use approach to DIH intellectual property is intended to let) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 245.5 Tm (people create with the identity without first negotiating individual permission or paying) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 234.0 Tm (royalties, subject to the boundaries described in this paper and the separate IP policy.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 222.5 Tm (The project aims to communicate plainly. It will distinguish what exists today from what is) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 211.0 Tm (proposed, what has been funded from what is only planned, and what can be verified on-chain) Tj ET
+BT /F1 7 Tf 0.38 0.43 0.51 rg 1 0 0 1 50 24 Tm (WEB PDF  |  PAGE 3 OF 14) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 5926 >>
+stream
+0.70 0.48 0.16 RG 1 w 50 805 m 545 805 l S
+BT /F2 7 Tf 0.09 0.10 0.15 rg 1 0 0 1 50 814 Tm (DEVS IN HOODIES  |  DOCUMENT LIBRARY) Tj ET
+BT /F2 10 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 780.0 Tm (DIH WHITEPAPER  |  CONTINUED) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 765.0 Tm (from what is a project statement. A market-cap milestone, roadmap graphic or stated allocation) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 753.5 Tm (is not by itself evidence that a development task or payout mechanism has been completed.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 742.0 Tm (OPERATING STANDARD) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 730.5 Tm (Be clear about the status of each commitment. Publish evidence where a claim can be) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 719.0 Tm (independently checked. Do not present future plans as completed features.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 707.5 Tm () Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 702.5 Tm (03 / THE RESURGENCE WHITEPAPER) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 689.5 Tm (Token identity & project scope) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 678.0 Tm (What $DayOne is - and what this whitepaper does not claim it to be.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 666.5 Tm ($DayOne is presented as an existing Solana memecoin launched through Pump.fun. The project is) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 655.0 Tm (not claiming that the token represents equity, ownership in a company, a right to dividends, a) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 643.5 Tm (debt claim, or a guaranteed entitlement to future revenue. Any rights or benefits described in) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 632.0 Tm (this paper are project participation arrangements and are subject to their stated conditions) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 620.5 Tm (and implementation.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 609.0 Tm (REFERENCE) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 597.5 Tm (PROJECT INFORMATION) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 586.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 581.0 Tm (Token) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 569.5 Tm ($DayOne) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 558.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 553.0 Tm (Network) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 541.5 Tm (Solana) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 530.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 525.0 Tm (Launch platform identified by project materials) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 513.5 Tm (Pump.fun) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 502.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 497.0 Tm (Contract address) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 485.5 Tm (Dnuavjf55VE5nD8o148eNRGFVCvnUduriodT1LDcpump) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 474.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 469.0 Tm (X account shown in project roadmap artwork) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 457.5 Tm (@DayOne_DIH) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 446.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 441.0 Tm (Telegram account shown in project roadmap artwork) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 429.5 Tm (@DAYONESOLANA) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 418.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 413.0 Tm (The contract address and social identifiers above are reproduced from project-supplied) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 401.5 Tm (materials. Readers should independently confirm the contract address and official account) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 390.0 Tm (links through the project's current official channels before interacting with any token,) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 378.5 Tm (wallet, website or group. A lookalike account or token may use a similar name or image.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 367.0 Tm (This whitepaper does not state a fixed token supply, initial distribution, circulating supply,) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 355.5 Tm (liquidity level, holder count, current market capitalisation, exchange listing status or) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 344.0 Tm (current trading volume. Those values can change and should be checked using a current) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 332.5 Tm (blockchain explorer and reliable market data at the time of review.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 321.0 Tm (The project's roadmap and creator-fee framework do not create a guaranteed market price, a) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 309.5 Tm (price floor, a redemption right or a promise of profit. A token holder may lose some or all of) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 298.0 Tm (the value paid for tokens. The token may have limited liquidity, high volatility or periods of) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 286.5 Tm (little or no market activity.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 275.0 Tm (SCOPE BOUNDARY) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 263.5 Tm (The project is a memecoin community initiative with planned campaigns and a proposed game. Do) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 252.0 Tm (not infer financial rights, guaranteed utility or a completed product from the existence of) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 240.5 Tm (the token or this whitepaper.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 229.0 Tm () Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 224.0 Tm (04 / THE RESURGENCE WHITEPAPER) Tj ET
+BT /F1 7 Tf 0.38 0.43 0.51 rg 1 0 0 1 50 24 Tm (WEB PDF  |  PAGE 4 OF 14) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 5853 >>
+stream
+0.70 0.48 0.16 RG 1 w 50 805 m 545 805 l S
+BT /F2 7 Tf 0.09 0.10 0.15 rg 1 0 0 1 50 814 Tm (DEVS IN HOODIES  |  DOCUMENT LIBRARY) Tj ET
+BT /F2 10 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 780.0 Tm (DIH WHITEPAPER  |  CONTINUED) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 765.0 Tm (Creator fee allocation framework) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 753.5 Tm (The allocation applies to eligible creator fees actually received through the relevant) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 742.0 Tm (creator-fee mechanism.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 730.5 Tm (The project has defined an internal allocation framework for the eligible creator-fee base.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 719.0 Tm (The five categories below account for 100% of that base. These percentages are not percentages) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 707.5 Tm (of token supply, market capitalisation, trading volume, total transaction value or future game) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 696.0 Tm (revenue.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 684.5 Tm (IMPORTANT DISTINCTION) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 673.0 Tm (The 20% Founder Allocation is a share of eligible creator fees under this framework. It is not) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 661.5 Tm (a token allocation and does not mean the founder holds 20% of the $DayOne token supply. The) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 650.0 Tm (founder's separately stated 0% token holding is addressed in the transparency section.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 638.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 633.5 Tm (ALLOCATION CATEGORY) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 622.0 Tm (SHARE) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 610.5 Tm (INTENDED PURPOSE) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 599.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 594.0 Tm (Founder Allocation) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 582.5 Tm (20%) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 571.0 Tm (Founder allocation under the project framework.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 559.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 554.5 Tm (Development Treasury) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 543.0 Tm (35%) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 531.5 Tm (Funding for planned development and project build-out.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 520.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 515.0 Tm (The Resurgence Content Competition Rewards) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 503.5 Tm (25%) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 492.0 Tm (Reward pool for the 25-winner content competition.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 480.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 475.5 Tm (Core Operations) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 464.0 Tm (10%) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 452.5 Tm (Core project operations and necessary administration.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 441.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 436.0 Tm (Ecosystem Operations) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 424.5 Tm (10%) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 413.0 Tm (Activities supporting the wider DIH ecosystem and community.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 401.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 396.5 Tm (TOTAL) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 385.0 Tm (100%) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 373.5 Tm (Full allocation of the eligible creator-fee base.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 362.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 357.0 Tm (For this framework, "eligible creator-fee base" means creator fees received by the project) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 345.5 Tm (through the applicable platform mechanism and covered by this allocation policy. It does not) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 334.0 Tm (mean trading volume. Platform-level deductions, delays, mechanism changes, restrictions or) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 322.5 Tm (interruptions may affect the amount the project actually receives. The allocation cannot) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 311.0 Tm (distribute fees that have not been received.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 299.5 Tm (The five percentages state how the eligible base is intended to be allocated. They do not, by) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 288.0 Tm (themselves, prove that all relevant wallets, split instructions, accounting processes or) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 276.5 Tm (automated payment systems have been deployed and tested. The operational policy must identify) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 265.0 Tm (the receiving wallets, access controls, reporting period, reconciliation process,) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 253.5 Tm (recordkeeping method and distribution procedure before the system is represented as live.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 242.0 Tm (Any reporting should distinguish fees generated, fees received, amounts allocated, amounts) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 230.5 Tm (held for later distribution, transaction costs and amounts actually paid out. The project) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 219.0 Tm (should not describe trading volume as revenue or describe an allocation as paid merely because) Tj ET
+BT /F1 7 Tf 0.38 0.43 0.51 rg 1 0 0 1 50 24 Tm (WEB PDF  |  PAGE 5 OF 14) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 5976 >>
+stream
+0.70 0.48 0.16 RG 1 w 50 805 m 545 805 l S
+BT /F2 7 Tf 0.09 0.10 0.15 rg 1 0 0 1 50 814 Tm (DEVS IN HOODIES  |  DOCUMENT LIBRARY) Tj ET
+BT /F2 10 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 780.0 Tm (DIH WHITEPAPER  |  CONTINUED) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 765.0 Tm (it has been assigned on a spreadsheet or announced publicly.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 753.5 Tm (SEPARATE FINANCIAL COMMITMENTS) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 742.0 Tm (The 60% game-profit buyback and burn commitment described later in this paper is separate from) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 730.5 Tm (this creator-fee allocation. It does not change the 100% creator-fee split above.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 719.0 Tm () Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 714.0 Tm (05 / THE RESURGENCE WHITEPAPER) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 701.0 Tm (The Resurgence content competition) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 689.5 Tm (A five-day creator campaign designed to invite visible, original participation.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 678.0 Tm (The Resurgence Content Competition is the project's planned creator campaign. The current) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 666.5 Tm (decision is a five-day competition with 25 winners. This replaces the earlier 48-hour duration) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 655.0 Tm (shown in an older roadmap artwork. The five-day duration is the current project decision and) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 643.5 Tm (must be used in updated public materials.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 632.0 Tm (RULE) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 620.5 Tm (CURRENT PROJECT DECISION) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 609.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 604.0 Tm (Duration) Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 592.5 Tm (5 days.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 579.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 574.5 Tm (Number of winners) Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 563.0 Tm (25 participants.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 550.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 545.0 Tm (Competition allocation) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 533.5 Tm (25% of the eligible creator-fee base.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 522.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 517.0 Tm (Division) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 505.5 Tm (Equal allocation among the 25 selected winners.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 494.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 489.0 Tm (Share per winner) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 477.5 Tm (1% of the eligible creator-fee base \(25% divided by 25\).) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 466.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 461.0 Tm (Form of reward) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 449.5 Tm (An ongoing percentage-based creator-fee share, not a fixed cash amount or fixed token amount.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 438.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 433.0 Tm (Activation) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 421.5 Tm (The campaign is tied to the $100,000 market-cap roadmap milestone.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 410.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 405.0 Tm (The 1% calculation refers only to the eligible creator-fee base covered by the framework. It) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 393.5 Tm (does not represent 1% of token supply, 1% of market capitalisation, 1% of trading volume or a) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 382.0 Tm (guaranteed value in any currency. The actual amount depends on creator fees generated,) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 370.5 Tm (received and available for allocation under the relevant mechanism.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 359.0 Tm (The competition is intended to reward creative participation. It does not promise that every) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 347.5 Tm (post will receive a reward, nor does it guarantee a particular market outcome. The project) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 336.0 Tm (must publish the detailed campaign rules before entries open. These rules should specify) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 324.5 Tm (eligible content, entry windows and time zone, originality requirements, prohibited conduct,) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 313.0 Tm (selection criteria, tie-breaks, disqualification, winner announcements, wallet submission and) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 301.5 Tm (dispute handling.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 290.0 Tm (Because the competition involves a percentage-based ongoing allocation, participants should) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 278.5 Tm (understand the variable nature of the reward before entering. The value may be small, zero for) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 267.0 Tm (a period, delayed or unavailable if the relevant creator-fee mechanism does not generate or) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 255.5 Tm (deliver fees.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 244.0 Tm (CURRENT DURATION CONTROLS) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 232.5 Tm (Use "5 days" in all current campaign documentation. The old "48-Hour Poster Event" wording is) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 221.0 Tm (superseded and must not be reused as the active competition duration.) Tj ET
+BT /F1 7 Tf 0.38 0.43 0.51 rg 1 0 0 1 50 24 Tm (WEB PDF  |  PAGE 6 OF 14) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 6083 >>
+stream
+0.70 0.48 0.16 RG 1 w 50 805 m 545 805 l S
+BT /F2 7 Tf 0.09 0.10 0.15 rg 1 0 0 1 50 814 Tm (DEVS IN HOODIES  |  DOCUMENT LIBRARY) Tj ET
+BT /F2 10 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 780.0 Tm (DIH WHITEPAPER  |  CONTINUED) Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 765.0 Tm (06 / THE RESURGENCE WHITEPAPER) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 752.0 Tm (Permanent creator-fee sharing) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 740.5 Tm (The intended ongoing share for selected winners, subject to membership and mechanism) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 729.0 Tm (conditions.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 717.5 Tm (The project's current decision is that each of the 25 selected winners retains an equal share) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 706.0 Tm (of the competition allocation on an ongoing, lifetime basis, subject to the conditions below.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 694.5 Tm (The intended share for each winner is 1% of the eligible creator-fee base covered by the) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 683.0 Tm (framework.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 671.5 Tm (A winner does not need to keep posting, submit new content every week or remain constantly) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 660.0 Tm (active in order to retain eligibility. Future content contributions are voluntary. The) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 648.5 Tm (membership condition is that the winner remains a member of the project Telegram group. A) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 637.0 Tm (winner who leaves the group no longer meets the membership condition for future distributions.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 625.5 Tm (TOPIC) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 614.0 Tm (CURRENT POSITION) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 602.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 597.5 Tm (Ongoing nature) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 586.0 Tm (Intended to continue for the lifetime of the arrangement, while the relevant creator-fee) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 574.5 Tm (mechanism remains available and conditions are met.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 563.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 558.0 Tm (Ongoing activity) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 546.5 Tm (No continuing content contribution is required after selection; future contributions are) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 535.0 Tm (voluntary.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 523.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 518.5 Tm (Group membership) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 507.0 Tm (The winner must remain in the project Telegram group to qualify for future distributions.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 495.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 490.5 Tm (Leaving the group) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 479.0 Tm (A participant who leaves is no longer eligible for future distributions while outside the) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 467.5 Tm (group.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 456.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 451.0 Tm (Rejoining after leaving) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 439.5 Tm (Treatment of re-entry has not yet been finalised and must be stated in the detailed payout) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 428.0 Tm (rules.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 416.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 411.5 Tm (Payment automation) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 400.0 Tm (No claim is made here that an automated distribution system is already live, tested or) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 388.5 Tm (production-ready.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 377.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 372.0 Tm (The word "permanent" describes the intended duration of the share; it is not a promise that) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 360.5 Tm (creator fees will always exist, that payments will be generated at a fixed frequency or that) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 349.0 Tm (the project can override platform-level changes. If the applicable fee mechanism is) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 337.5 Tm (discontinued, restricted, changed or ceases to deliver fees, the project may have no eligible) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 326.0 Tm (amount to distribute.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 314.5 Tm (Before the first distribution, the project must publish a binding operational procedure) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 303.0 Tm (covering winner identity confirmation, wallet ownership checks, payment windows, distribution) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 291.5 Tm (records, failed or returned transfers, fees, inactive or inaccessible accounts, group) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 280.0 Tm (membership snapshots, disputes and re-entry after leaving. The project should not imply that a) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 268.5 Tm (winner has received funds until the relevant transaction can be verified.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 257.0 Tm (PLAIN-LANGUAGE INTERPRETATION) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 245.5 Tm (A winner's share is a percentage of actual eligible creator fees, not a guaranteed salary,) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 234.0 Tm (fixed return, token balance or promise of a minimum payout.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 222.5 Tm () Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 217.5 Tm (07 / THE RESURGENCE WHITEPAPER) Tj ET
+BT /F1 7 Tf 0.38 0.43 0.51 rg 1 0 0 1 50 24 Tm (WEB PDF  |  PAGE 7 OF 14) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 20 0 R >>
+endobj
+20 0 obj
+<< /Length 6362 >>
+stream
+0.70 0.48 0.16 RG 1 w 50 805 m 545 805 l S
+BT /F2 7 Tf 0.09 0.10 0.15 rg 1 0 0 1 50 814 Tm (DEVS IN HOODIES  |  DOCUMENT LIBRARY) Tj ET
+BT /F2 10 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 780.0 Tm (DIH WHITEPAPER  |  CONTINUED) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 765.0 Tm (DIH intellectual property) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 753.5 Tm (An open-use approach intended to let the community create without a permission bottleneck.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 742.0 Tm (The project's stated DIH intellectual-property approach is to allow anyone, including people) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 730.5 Tm (outside the Telegram community, to use the DIH identity and project intellectual property) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 719.0 Tm (publicly and commercially without paying a licence fee or royalty to the original rights) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 707.5 Tm (holder and without requesting individual permission in advance.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 696.0 Tm (The permission to use the DIH IP does not transfer ownership. Ownership remains with the) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 684.5 Tm (original rights holder. A person using the IP does not acquire ownership of the $DayOne token,) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 673.0 Tm (the project, official accounts, treasury, domains, community channels or any other project) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 661.5 Tm (asset merely by creating or distributing a work that uses DIH branding.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 650.0 Tm (OPEN-USE PRINCIPLE) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 638.5 Tm (WHAT IT MEANS) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 627.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 622.0 Tm (Public use) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 610.5 Tm (Use is not restricted to members of the official Telegram group.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 599.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 594.0 Tm (Commercial use) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 582.5 Tm (Commercial projects and creations are permitted under the intended open-use approach.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 571.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 566.0 Tm (No royalty) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 554.5 Tm (No licence fee or royalty is owed to the original rights holder for permitted DIH IP use.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 543.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 538.0 Tm (No individual permission) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 526.5 Tm (A separate request for permission is not required for uses within the policy.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 515.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 510.0 Tm (Ownership retained) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 498.5 Tm (The original rights holder keeps ownership; use does not transfer title.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 487.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 482.0 Tm (No implied endorsement) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 470.5 Tm (Use does not make the creator an official representative or imply project endorsement.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 459.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 454.0 Tm (Open use is not permission to impersonate official project channels, mislead the public about) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 442.5 Tm (affiliation, fabricate announcements, misrepresent token or project information, or claim) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 431.0 Tm (ownership of the original IP. Users must also respect third-party rights, including any) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 419.5 Tm (artwork, fonts, music, trademarks, photographs or other materials that are not owned or) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 408.0 Tm (controlled by the DIH rights holder.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 396.5 Tm (The separate DIH IP Usage Policy should define the exact assets covered, permitted) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 385.0 Tm (adaptations, attribution expectations if any, prohibited impersonation, handling of) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 373.5 Tm (third-party material, takedown or dispute procedures and the legal terms governing the) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 362.0 Tm (permission. Until that separate policy is published, this section records the project's) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 350.5 Tm (intended open-use principles rather than replacing a complete legal licence.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 339.0 Tm (THE INTENDED CULTURE) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 327.5 Tm (Create with DIH. Build on the shared identity. Do not pretend to be an official channel, and) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 316.0 Tm (do not claim ownership that was never transferred.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 304.5 Tm () Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 299.5 Tm (08 / THE RESURGENCE WHITEPAPER) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 286.5 Tm (DayOne Arena) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 275.0 Tm (A proposed game concept - not a completed or currently playable product.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 263.5 Tm (DayOne Arena is a proposed pixel-art game concept associated with the $250,000 market-cap) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 252.0 Tm (roadmap milestone. The initial concept centres on sabotage and score collection. Early format) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 240.5 Tm (ideas include one-versus-one play, with the possibility of team-based formats as the design) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 229.0 Tm (develops.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 217.5 Tm (The game is not built at the date of this whitepaper. Its mechanics, rules, platform,) Tj ET
+BT /F1 7 Tf 0.38 0.43 0.51 rg 1 0 0 1 50 24 Tm (WEB PDF  |  PAGE 8 OF 14) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 22 0 R >>
+endobj
+22 0 obj
+<< /Length 5709 >>
+stream
+0.70 0.48 0.16 RG 1 w 50 805 m 545 805 l S
+BT /F2 7 Tf 0.09 0.10 0.15 rg 1 0 0 1 50 814 Tm (DEVS IN HOODIES  |  DOCUMENT LIBRARY) Tj ET
+BT /F2 10 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 780.0 Tm (DIH WHITEPAPER  |  CONTINUED) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 765.0 Tm (technical architecture, monetisation, multiplayer model, anti-cheat controls, user account) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 753.5 Tm (structure and launch requirements remain subject to design and implementation. Community) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 742.0 Tm (members and the public may suggest ideas, but suggestions do not automatically become approved) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 730.5 Tm (features or delivery commitments.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 719.0 Tm (KNOWN PROJECT DIRECTION) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 707.5 Tm (STATUS) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 696.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 691.0 Tm (Pixel-art presentation) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 679.5 Tm (Concept direction.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 668.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 663.0 Tm (Sabotage and score collection) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 651.5 Tm (Core proposed gameplay ideas.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 640.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 635.0 Tm (1v1 format) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 623.5 Tm (Early format under consideration.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 612.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 607.0 Tm (Team-versus-team format) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 595.5 Tm (Possible expansion; not finalised.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 584.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 579.0 Tm (Community ideation) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 567.5 Tm (Open invitation for ideas; not a binding feature vote.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 556.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 551.0 Tm (Development target) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 539.5 Tm (Two-month development target associated with the $250K milestone; scope and start conditions) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 528.0 Tm (to be confirmed.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 516.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 511.5 Tm (Playable release) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 500.0 Tm (Not available or promised by this whitepaper.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 488.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 483.5 Tm (The roadmap refers to a two-month game-development target. This is a planning target, not a) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 472.0 Tm (guaranteed release date. Before the development period is treated as active, the project) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 460.5 Tm (should publish the milestone verification date, the start date, the scope for the two-month) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 449.0 Tm (target, the intended deliverables and the criteria used to describe development as complete.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 437.5 Tm (Any future game economy, in-game purchases, rewards, player rankings or connection to the) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 426.0 Tm (token will require separate design and risk review. This whitepaper does not promise token) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 414.5 Tm (rewards for gameplay, a play-to-earn model, guaranteed player earnings or a finished game) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 403.0 Tm (economy.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 391.5 Tm (STATUS LABEL) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 380.0 Tm (DAYONE ARENA: CONCEPT STAGE. A roadmap development target is not proof that development has) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 368.5 Tm (started or that a release is guaranteed.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 357.0 Tm () Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 352.0 Tm (09 / THE RESURGENCE WHITEPAPER) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 339.0 Tm (Roadmap & market-cap milestones) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 327.5 Tm (The Resurgence roadmap is a set of intended targets, not a promise of market performance.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 316.0 Tm (The current roadmap uses market-cap reference points to organise planned community and) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 304.5 Tm (development activities. The values below are targets shown in project materials and confirmed) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 293.0 Tm (as the working roadmap for this whitepaper. Market capitalisation can move quickly and may be) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 281.5 Tm (calculated differently across data providers. The project should state the source and) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 270.0 Tm (verification method when announcing that a milestone has been reached.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 258.5 Tm (MARKET-CAP TARGET) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 247.0 Tm (MILESTONE) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 235.5 Tm (INTENDED ACTIVITY) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 224.0 Tm () Tj ET
+BT /F1 7 Tf 0.38 0.43 0.51 rg 1 0 0 1 50 24 Tm (WEB PDF  |  PAGE 9 OF 14) Tj ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 24 0 R >>
+endobj
+24 0 obj
+<< /Length 6075 >>
+stream
+0.70 0.48 0.16 RG 1 w 50 805 m 545 805 l S
+BT /F2 7 Tf 0.09 0.10 0.15 rg 1 0 0 1 50 814 Tm (DEVS IN HOODIES  |  DOCUMENT LIBRARY) Tj ET
+BT /F2 10 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 780.0 Tm (DIH WHITEPAPER  |  CONTINUED) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 765.0 Tm ($100,000) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 753.5 Tm (THE CREATOR CAMPAIGN) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 742.0 Tm (Five-day content competition; 25 winners under The Resurgence framework.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 730.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 725.5 Tm ($250,000) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 714.0 Tm (DAYONE ARENA) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 702.5 Tm (Two-month game-development target for the proposed pixel-art sabotage and score-collection) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 691.0 Tm (game.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 679.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 674.5 Tm ($500,000) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 663.0 Tm (ROCKET STANDBY) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 651.5 Tm (Prepare for the next stage. Specific deliverables remain to be defined.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 640.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 635.0 Tm ($1,000,000) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 623.5 Tm (COMMUNITY RISE) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 612.0 Tm (Expand participation, builders and community-created work.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 600.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 595.5 Tm ($5,000,000) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 584.0 Tm (REACH THE MOON) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 572.5 Tm (Longer-term milestone in the project roadmap.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 561.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 556.0 Tm (The $100,000 creator campaign duration is five days. This supersedes the 48-hour wording in) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 544.5 Tm (the older roadmap artwork. Any updated poster, website, pinned message or campaign) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 533.0 Tm (announcement should reflect the five-day duration.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 521.5 Tm (A market-cap target is not funding in a bank account, not revenue, not liquidity and not a) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 510.0 Tm (guarantee that the project has cash available to deliver the activity shown. A milestone may) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 498.5 Tm (be reached briefly and then fall below the target. Before activating a milestone, the project) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 487.0 Tm (should publish how the market cap will be measured, which data source will be used, whether a) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 475.5 Tm (sustained period is required, and who confirms activation.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 464.0 Tm (The roadmap is intended to guide the project towards its stated Pump.fun graduation objective.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 452.5 Tm (This paper does not state that a particular market-cap figure automatically equals graduation.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 441.0 Tm (Graduation status must be confirmed independently through the relevant official platform) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 429.5 Tm (interface and its current criteria.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 418.0 Tm (ROADMAP RULE) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 406.5 Tm (Targets describe when the project intends to activate work. They do not guarantee token) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 395.0 Tm (appreciation, project funding, user growth, game completion or graduation.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 383.5 Tm () Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 378.5 Tm (10 / THE RESURGENCE WHITEPAPER) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 365.5 Tm (Future game-profit buyback & burn) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 354.0 Tm (A separate future commitment based on net profits from a game that has not yet been built.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 342.5 Tm (The project has stated an intention to allocate 60% of future net profits generated by DayOne) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 331.0 Tm (Arena to buyback and burn $DayOne. This commitment is separate from Pump.fun creator fees and) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 319.5 Tm (does not come out of the five-category creator-fee allocation in Section 04.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 308.0 Tm (The base for this commitment is net profit, not gross game revenue. Relevant costs must be) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 296.5 Tm (deducted before the net-profit figure is calculated. The detailed expense categories,) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 285.0 Tm (accounting method, reporting period, treatment of taxes and payment-processing costs, approval) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 273.5 Tm (process, buyback execution method, burn-address verification and public reporting format have) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 262.0 Tm (not yet been finalised. They should be published before the game begins generating revenue or) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 250.5 Tm (before any buyback is represented as operational.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 239.0 Tm (ITEM) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 227.5 Tm (PROJECT POSITION) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 216.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 211.0 Tm (Allocation intention) Tj ET
+BT /F1 7 Tf 0.38 0.43 0.51 rg 1 0 0 1 50 24 Tm (WEB PDF  |  PAGE 10 OF 14) Tj ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 26 0 R >>
+endobj
+26 0 obj
+<< /Length 6416 >>
+stream
+0.70 0.48 0.16 RG 1 w 50 805 m 545 805 l S
+BT /F2 7 Tf 0.09 0.10 0.15 rg 1 0 0 1 50 814 Tm (DEVS IN HOODIES  |  DOCUMENT LIBRARY) Tj ET
+BT /F2 10 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 780.0 Tm (DIH WHITEPAPER  |  CONTINUED) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 765.0 Tm (60% of future game net profits.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 753.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 748.5 Tm (Use) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 737.0 Tm (Buyback and burn of $DayOne.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 725.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 720.5 Tm (Revenue source) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 709.0 Tm (Future game operations only; not Pump.fun creator fees.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 697.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 692.5 Tm (Game status) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 681.0 Tm (DayOne Arena has not been built.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 669.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 664.5 Tm (Net-profit formula) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 653.0 Tm (To be defined and published with relevant cost categories.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 641.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 636.5 Tm (Execution and reporting) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 625.0 Tm (Buyback wallet, execution method, burn evidence and reporting procedure to be specified.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 613.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 608.5 Tm (If the game does not launch, generates no revenue or generates no net profit, there may be no) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 597.0 Tm (amount available for this allocation. If a buyback is executed, the quantity purchased will) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 585.5 Tm (depend on the amount allocated and the market conditions at the time. Burning tokens does not) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 574.0 Tm (guarantee a price increase, reduce risk to holders or create a guaranteed return.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 562.5 Tm (The project should publish a periodic report showing gross game receipts, the approved expense) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 551.0 Tm (categories deducted, the resulting net-profit figure, the 60% calculation, amounts used for) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 539.5 Tm (buyback, transaction identifiers and verifiable burn evidence. No amount should be described) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 528.0 Tm (as bought back or burned until the transaction is complete and independently viewable) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 516.5 Tm (on-chain.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 505.0 Tm (NO DOUBLE COUNTING) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 493.5 Tm (The 60% game-profit commitment is independent of the creator-fee allocation. The two bases) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 482.0 Tm (must be accounted for and reported separately.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 470.5 Tm () Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 465.5 Tm (11 / THE RESURGENCE WHITEPAPER) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 452.5 Tm (Transparency, records & founder disclosure) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 441.0 Tm (Public statements should be supported by evidence wherever an independent check is possible.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 429.5 Tm (The project intends to use proactive disclosure rather than waiting for controversy. This) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 418.0 Tm (includes clear statements about the founder's declared token holdings, public transaction) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 406.5 Tm (records where relevant, creator-fee allocations and the status of development commitments.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 395.0 Tm (The founder has stated that founder token holdings are 0%. For this statement to be) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 383.5 Tm (independently assessed, the project should publish the relevant wallet scope, the verification) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 372.0 Tm (timestamp, the method used to determine holdings and supporting on-chain evidence. A statement) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 360.5 Tm (about a disclosed wallet or set of wallets must not be expanded into a claim about every) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 349.0 Tm (related, affiliated or beneficially controlled wallet unless that broader scope has been) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 337.5 Tm (established.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 326.0 Tm (This 0% token-holding statement is separate from the 20% Founder Allocation in the creator-fee) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 314.5 Tm (framework. The latter is a stated allocation of eligible creator fees; it is not a share of) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 303.0 Tm (token supply and does not change the founder token-holding disclosure.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 291.5 Tm (A wallet address and its on-chain history can show token movements, transfers and balances. It) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 280.0 Tm (does not automatically reveal the real-world identity of the wallet controller. If a large) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 268.5 Tm (sale or suspected rug pull occurs, the project may publish relevant transaction hashes,) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 257.0 Tm (addresses, token movements and timestamps that can be verified publicly. It should not) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 245.5 Tm (identify or accuse a person without sufficient evidence connecting that person to the wallet) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 234.0 Tm (or conduct.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 222.5 Tm (TRANSPARENCY AREA) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 211.0 Tm (RECOMMENDED PUBLIC RECORD) Tj ET
+BT /F1 7 Tf 0.38 0.43 0.51 rg 1 0 0 1 50 24 Tm (WEB PDF  |  PAGE 11 OF 14) Tj ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 28 0 R >>
+endobj
+28 0 obj
+<< /Length 6694 >>
+stream
+0.70 0.48 0.16 RG 1 w 50 805 m 545 805 l S
+BT /F2 7 Tf 0.09 0.10 0.15 rg 1 0 0 1 50 814 Tm (DEVS IN HOODIES  |  DOCUMENT LIBRARY) Tj ET
+BT /F2 10 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 780.0 Tm (DIH WHITEPAPER  |  CONTINUED) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 765.0 Tm (Founder holdings) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 753.5 Tm (Wallet scope, date/time snapshot, token balances and evidence.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 742.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 737.0 Tm (Creator fees) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 725.5 Tm (Fees received, allocation calculations, amounts held and amounts paid.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 714.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 709.0 Tm (Competition rewards) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 697.5 Tm (Final winners, eligibility status, payment records and transaction references.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 686.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 681.0 Tm (Development) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 669.5 Tm (Milestone status, deliverables completed, delays and material changes.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 658.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 653.0 Tm (Game-profit allocation) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 641.5 Tm (Revenue, expenses, net-profit calculation, buyback transactions and burn evidence.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 630.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 625.0 Tm (IP policy) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 613.5 Tm (Current policy version, covered IP and changes to permitted-use conditions.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 602.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 597.0 Tm (The project is operated through a pseudonymous founder identity. Community members may know or) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 585.5 Tm (be able to monitor a disclosed development wallet without knowing the real-world identity of) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 574.0 Tm (the person operating behind the project account. Public identification of the wallet does not) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 562.5 Tm (by itself establish the operator's legal identity, sole control, beneficial ownership, motives) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 551.0 Tm (or personal circumstances.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 539.5 Tm (The founder is not required by this community-facing document to publish a legal name, face,) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 528.0 Tm (home address, personal telephone number, private social accounts, family details or private) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 516.5 Tm (documents. This privacy boundary does not override a lawful requirement or a platform's) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 505.0 Tm (legitimate verification process. Any required confidential verification should be handled) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 493.5 Tm (through the relevant authorised channel, not demanded or exposed in a public community space.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 482.0 Tm (Pseudonymity is not immunity from project accountability. Official project statements,) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 470.5 Tm (published allocation rules, campaign obligations and material project actions should still be) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 459.0 Tm (explained with relevant records and evidence. Members may scrutinise public wallet activity) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 447.5 Tm (and ask good-faith questions. The project should not claim that a wallet proves a human) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 436.0 Tm (identity unless reliable evidence supports that claim.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 424.5 Tm (For ordinary project communication, members should use official project channels. The founder) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 413.0 Tm (does not promise instant replies, personal access, or participation in every debate or direct) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 401.5 Tm (message. Material project matters should be addressed through reasonable official updates and) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 390.0 Tm (supporting records when available; personal privacy and safety do not remove the need to) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 378.5 Tm (correct material factual errors or report material changes.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 367.0 Tm (Where relevant, reports should use dates and transaction identifiers rather than vague phrases) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 355.5 Tm (such as "soon", "already handled" or "fully automated". The absence of a transaction record) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 344.0 Tm (should not be hidden behind a general project announcement.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 332.5 Tm (DISCLOSURE STANDARD) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 321.0 Tm (Publish what can be checked. Label what is founder-stated. Do not infer wallet identity from) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 309.5 Tm (an address alone, and do not treat a market-price drop as proof of a particular person's) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 298.0 Tm (conduct.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 286.5 Tm () Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 281.5 Tm (12 / THE RESURGENCE WHITEPAPER) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 268.5 Tm (Risks, limitations & important notices) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 257.0 Tm (Participation in a memecoin project involves substantial uncertainty and risk.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 245.5 Tm (This whitepaper is provided for general project information. It is not financial, investment,) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 234.0 Tm (legal, tax or accounting advice; it is not an offer to sell or a solicitation to buy any) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 222.5 Tm (token, security or financial product; and it should not be relied upon as the sole basis for a) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 211.0 Tm (transaction. Readers should make their own independent assessment and seek qualified) Tj ET
+BT /F1 7 Tf 0.38 0.43 0.51 rg 1 0 0 1 50 24 Tm (WEB PDF  |  PAGE 12 OF 14) Tj ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 30 0 R >>
+endobj
+30 0 obj
+<< /Length 6373 >>
+stream
+0.70 0.48 0.16 RG 1 w 50 805 m 545 805 l S
+BT /F2 7 Tf 0.09 0.10 0.15 rg 1 0 0 1 50 814 Tm (DEVS IN HOODIES  |  DOCUMENT LIBRARY) Tj ET
+BT /F2 10 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 780.0 Tm (DIH WHITEPAPER  |  CONTINUED) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 765.0 Tm (professional advice where appropriate.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 753.5 Tm (Market and volatility risk - The price of $DayOne may rise or fall sharply. A holder may lose) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 742.0 Tm (some or all of the amount spent. Past activity or a roadmap milestone does not predict future) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 730.5 Tm (price.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 719.0 Tm (Liquidity and execution risk - There may be limited liquidity or periods when a holder cannot) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 707.5 Tm (sell at a desired price. Trading may be affected by market conditions, slippage, platform) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 696.0 Tm (interruptions or network congestion.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 684.5 Tm (Creator-fee risk - Creator fees depend on the applicable platform mechanism and actual) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 673.0 Tm (activity. Fees may vary, be delayed, change or stop. The project cannot distribute creator) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 661.5 Tm (fees it does not receive.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 650.0 Tm (Competition and payout risk - Winner selection, identity checks, wallet registration, payout) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 638.5 Tm (timing, re-entry rules and automation require detailed procedures. Percentage-based shares are) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 627.0 Tm (variable and are not guaranteed fixed income.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 615.5 Tm (Development risk - DayOne Arena is a concept, not a completed game. Development may be) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 604.0 Tm (delayed, changed, reduced in scope or not completed.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 592.5 Tm (Roadmap risk - Market-cap targets are uncertain and can be temporary. Reaching a target does) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 581.0 Tm (not guarantee sufficient funds, successful development or platform graduation.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 569.5 Tm (Buyback and burn risk - The commitment depends on future game net profits and a process that) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 558.0 Tm (has not yet been fully specified. Buybacks and burns do not guarantee price appreciation.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 546.5 Tm (Technology and custody risk - Wallets, smart contracts, platforms and blockchain networks may) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 535.0 Tm (be vulnerable to bugs, exploits, outages, phishing, key loss or malicious activity.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 523.5 Tm (Regulatory and tax risk - Digital-asset rules and tax treatment vary by jurisdiction and may) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 512.0 Tm (change. Participants are responsible for understanding obligations that apply to them.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 500.5 Tm (No statement in this document promises a return, minimum token value, guaranteed distribution,) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 489.0 Tm (guaranteed game release, guaranteed liquidity or protection from loss. The project may update) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 477.5 Tm (plans when circumstances change. Material changes should be dated and communicated through) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 466.0 Tm (official channels.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 454.5 Tm () Tj ET
+BT /F2 9.5 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 449.5 Tm (13 / THE RESURGENCE WHITEPAPER) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 436.5 Tm (Implementation register & closing statement) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 425.0 Tm (A clear separation between decisions that are defined and operational details still to be) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 413.5 Tm (completed.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 402.0 Tm (AREA) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 390.5 Tm (DECISION / STATUS) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 379.0 Tm (REMAINING IMPLEMENTATION WORK) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 367.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 362.5 Tm (Project identity) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 351.0 Tm (Defined: $DayOne, DIH, The Resurgence; Founder-Led. Community-Built.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 339.5 Tm (Maintain current branding and official channel references.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 328.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 323.0 Tm (Creator-fee allocation) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 311.5 Tm (Defined percentages total 100%.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 300.0 Tm (Publish wallet structure, controls, receipt reconciliation and reporting process.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 288.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 283.5 Tm (Five-day competition) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 272.0 Tm (Defined: 5 days, 25 winners, 25% pool.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 260.5 Tm (Publish entry rules, judging, dispute handling, identity and wallet checks.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 249.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 244.0 Tm (Ongoing winner share) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 232.5 Tm (Defined in principle: 1% of eligible fee base per winner, subject to group membership.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 221.0 Tm (Finalise re-entry, snapshots, payout cadence, operational method and test results.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 209.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 204.5 Tm (DIH IP use) Tj ET
+BT /F1 7 Tf 0.38 0.43 0.51 rg 1 0 0 1 50 24 Tm (WEB PDF  |  PAGE 13 OF 14) Tj ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 32 0 R >>
+endobj
+32 0 obj
+<< /Length 3711 >>
+stream
+0.70 0.48 0.16 RG 1 w 50 805 m 545 805 l S
+BT /F2 7 Tf 0.09 0.10 0.15 rg 1 0 0 1 50 814 Tm (DEVS IN HOODIES  |  DOCUMENT LIBRARY) Tj ET
+BT /F2 10 Tf 0.70 0.48 0.16 rg 1 0 0 1 50 780.0 Tm (DIH WHITEPAPER  |  CONTINUED) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 765.0 Tm (Open public and commercial use intended; ownership retained.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 753.5 Tm (Publish complete standalone IP Usage Policy and rights boundaries.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 742.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 737.0 Tm (DayOne Arena) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 725.5 Tm (Concept only; two-month development target at $250K milestone.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 714.0 Tm (Finalise scope, start conditions, technical plan, resources and release criteria.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 702.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 697.5 Tm (60% game-profit buyback) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 686.0 Tm (Commitment stated for future game net profits.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 674.5 Tm (Define expenses, net-profit formula, buyback/burn controls and reports.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 663.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 658.0 Tm (Founder 0% disclosure) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 646.5 Tm (Founder-stated position.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 635.0 Tm (Publish wallet scope, timestamp and verifiable supporting evidence.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 623.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 618.5 Tm (Roadmap) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 607.0 Tm (Targets defined: $100K / $250K / $500K / $1M / $5M.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 595.5 Tm (Publish market-cap source, verification window and activation process.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 584.0 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 579.0 Tm (This register is intentional. It does not weaken the project's commitments; it prevents an) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 567.5 Tm (intention from being mistaken for a completed technical or financial process. Before public) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 556.0 Tm (launch of any campaign, payment mechanism, game feature or buyback process, the corresponding) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 544.5 Tm (operational rules should be completed and published.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 533.0 Tm (WE ARE ALL DEVS IN HOODIES.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 521.5 Tm (The Resurgence is an invitation to build participation around an existing project - with clear) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 510.0 Tm (rules, open creativity and evidence-led communication.) Tj ET
+BT /F1 8 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 498.5 Tm () Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 493.5 Tm (Official references reproduced from current project materials: X - @DayOne_DIH | Telegram -) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 482.0 Tm (@DAYONESOLANA | Solana token address - Dnuavjf55VE5nD8o148eNRGFVCvnUduriodT1LDcpump. Confirm) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 470.5 Tm (all addresses and official channels independently before use.) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 459.0 Tm (END OF WHITEPAPER) Tj ET
+BT /F1 8.3 Tf 0.14 0.18 0.24 rg 1 0 0 1 50 447.5 Tm (THE RESURGENCE | PROJECT INFORMATION | PAGE) Tj ET
+BT /F1 7 Tf 0.38 0.43 0.51 rg 1 0 0 1 50 24 Tm (WEB PDF  |  PAGE 14 OF 14) Tj ET
+endstream
+endobj
+xref
+0 33
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000205 00000 n 
+0000000275 00000 n 
+0000000350 00000 n 
+0000000486 00000 n 
+0000004874 00000 n 
+0000005010 00000 n 
+0000010615 00000 n 
+0000010752 00000 n 
+0000017169 00000 n 
+0000017307 00000 n 
+0000023285 00000 n 
+0000023423 00000 n 
+0000029328 00000 n 
+0000029466 00000 n 
+0000035494 00000 n 
+0000035632 00000 n 
+0000041767 00000 n 
+0000041905 00000 n 
+0000048319 00000 n 
+0000048457 00000 n 
+0000054218 00000 n 
+0000054356 00000 n 
+0000060483 00000 n 
+0000060621 00000 n 
+0000067089 00000 n 
+0000067227 00000 n 
+0000073973 00000 n 
+0000074111 00000 n 
+0000080536 00000 n 
+0000080674 00000 n 
+trailer
+<< /Size 33 /Root 1 0 R >>
+startxref
+84437
+%%EOF
