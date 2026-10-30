@@ -1,0 +1,48 @@
+name: Extract DIH mascot asset
+on:
+  push:
+    branches: [main]
+    paths:
+      - "DIH_DayOne_Complete_Assets_Bundle.zip"
+      - ".github/workflows/extract-dih-assets.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  extract-mascot:
+    if: "!contains(github.event.head_commit.message, '[skip asset extraction]')"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Extract bundle and install mascot
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/dih-bundle assets
+          unzip -q DIH_DayOne_Complete_Assets_Bundle.zip -d /tmp/dih-bundle
+          IMAGE="$(find /tmp/dih-bundle -type f -iname '*.webp' | grep -Ei '(dih.*beaver|beaver.*pixel|pixel.*beaver)' | head -n 1 || true)"
+          if [ -z "$IMAGE" ]; then
+            IMAGE="$(find /tmp/dih-bundle -type f -iname '*.webp' | grep -Ei 'DIH_New_Pixel_Assets' | head -n 1 || true)"
+          fi
+          if [ -z "$IMAGE" ]; then
+            echo "No matching DIH beaver WebP found in bundle."
+            find /tmp/dih-bundle -maxdepth 4 -type f | head -n 100
+            exit 1
+          fi
+          cp "$IMAGE" assets/dih_beaver_pixel_static.webp
+          echo "Installed mascot from: $IMAGE"
+          file assets/dih_beaver_pixel_static.webp
+      - name: Commit extracted mascot
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/dih_beaver_pixel_static.webp
+          if git diff --cached --quiet; then
+            echo "Mascot already up to date."
+            exit 0
+          fi
+          git commit -m "Install DIH pixel mascot [skip asset extraction]"
+          git push
